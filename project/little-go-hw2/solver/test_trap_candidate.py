@@ -29,6 +29,8 @@ class BookTest(unittest.TestCase):
         table = cand._load_book()
         expected = sum(1 for kind, cm in BOOK.values() if cm is not None and kind != 'LOST?')
         self.assertEqual(len(table), expected)
+        multi = {k: v[1] for k, v in BOOK.items() if isinstance(v[1], list)}
+        self.assertEqual(sum(len(v) > 1 for v in table.values()), len(multi))
 
     def test_every_entry_in_every_orientation(self):
         rng = random.Random(5)
@@ -43,7 +45,8 @@ class BookTest(unittest.TestCase):
                 self.assertIsNotNone(m, (key, t))
                 # the returned move must be the image of the canonical move
                 # under some symmetry that maps s back onto the canonical state
-                ok = any(transform(s, u).key() == key and tmove(m, u) == cm for u in range(8))
+                cms = cm if isinstance(cm, list) else [cm]
+                ok = any(transform(s, u).key() == key and tmove(m, u) in cms for u in range(8))
                 self.assertTrue(ok, (key, t, m, cm))
                 self.assertIsNotNone(s.play(m), 'book move illegal')
 
@@ -62,7 +65,8 @@ class BookTest(unittest.TestCase):
             if kind not in ('trap', 'prefix'):
                 continue
             s = State(*key)
-            self.assertIsNotNone(s.play(cm))
+            for c in (cm if isinstance(cm, list) else [cm]):
+                self.assertIsNotNone(s.play(c))
 
     def test_off_book_returns_none(self):
         s = State().play(0).play(24).play(4)

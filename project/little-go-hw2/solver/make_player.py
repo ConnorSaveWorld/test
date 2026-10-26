@@ -21,7 +21,8 @@ def encode_book(book):
         B, W, side, ko, count, lp = k
         assert side == 2
         key = B | (W << 25) | (count << 50) | (lp << 55) | (ko << 56)
-        rows.append(key.to_bytes(9, 'big') + bytes([cm + 1]))
+        for c in (cm if isinstance(cm, list) else [cm]):
+            rows.append(key.to_bytes(9, 'big') + bytes([c + 1]))
     blob = base64.b85encode(b''.join(rows)).decode('ascii')
     lines = [blob[i:i + 100] for i in range(0, len(blob), 100)]
     return len(rows), '\n'.join(lines)
@@ -46,9 +47,12 @@ def _load_book():
         raw = base64.b85decode(''.join(_BOOK_DATA.split()))
         table = {}
         for i in range(0, len(raw), 10):
-            table[int.from_bytes(raw[i:i + 9], 'big')] = raw[i + 9] - 1
+            table.setdefault(int.from_bytes(raw[i:i + 9], 'big'), []).append(raw[i + 9] - 1)
         _BOOK = table
     return _BOOK
+
+
+import random
 
 
 def book_move(black, white, ko, count, last_pass):
@@ -63,8 +67,11 @@ def book_move(black, white, ko, count, last_pass):
             tko = 1 + 25 * mapping[p] + mapping[q]
         key = (_transform_bits(black, mapping) | (_transform_bits(white, mapping) << 25)
                | (count << 50) | ((1 if last_pass else 0) << 55) | (tko << 56))
-        move = book.get(key)
-        if move is not None:
+        moves = book.get(key)
+        if moves:
+            # Several stored moves: equally valued trap lines, chosen at random
+            # so repeated games test different lines.
+            move = moves[0] if len(moves) == 1 else random.choice(moves)
             if move == PASS:
                 return PASS
             return mapping.index(move)

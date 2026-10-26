@@ -67,6 +67,16 @@ def main():
             return None
         return {tmove(m, INV[t]): v for m, v in cache[k].items()}
 
+    # MULTI="seq:m1,m2;seq:m1,m2" -> White picks uniformly among these moves
+    multi = {}
+    for item in filter(None, os.environ.get('MULTI', '').split(';')):
+        seq, ms = item.split(':')
+        s = State()
+        for x in seq.split(','):
+            s = s.play(int(x))
+        k, t = ckey(s)
+        multi[k] = [tmove(int(x), t) for x in ms.split(',')]
+
     def main_white(s):
         k, t = ckey(s)
         if k in book:
@@ -77,13 +87,16 @@ def main():
         v, cm = memo[k]
         if cm is None:
             return
-        m = tmove(cm, INV[t])
         if v >= 1.0:
             win_jobs.add(k)
             return
-        add(s, m, 'trap')
+        cms = multi.get(k, [cm])
+        book[k] = ('trap', cms if len(cms) > 1 else cms[0])
         stats['main'] += 1
-        s1 = s.play(m)
+        for c in cms:
+            expand(s.play(tmove(c, INV[t])))
+
+    def expand(s1):
         mv = black_moves(s1)
         if mv is None:
             return
@@ -93,7 +106,7 @@ def main():
             if s2 is None or s2.count >= 24:
                 continue
             if val == 1:
-                if len(wins) <= int(os.environ.get("TRAP_NWMAX", "2")):
+                if len(wins) <= int(os.environ.get("TRAP_NWMAX", "2")) or ckey(s2)[0] in memo:
                     main_white(s2)
             else:
                 win_jobs.add(ckey(s2)[0])
