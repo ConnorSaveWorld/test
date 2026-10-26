@@ -1,0 +1,23 @@
+orbits 22
+W0: black wins(first 3) [7, 13, 17] ; losing tried []  9s
+W1: black wins(first 3) [7, 13, 17] ; losing tried []  15s
+W4: black wins(first 3) [7, 13, 17] ; losing tried []  9s
+W3: black wins(first 3) [7, 13, 17] ; losing tried []  19s
+W2: black wins(first 3) [7, 13, 17] ; losing tried []  37s
+W5: black wins(first 3) [7, 13, 17] ; losing tried []  16s
+W9: black wins(first 3) [7, 13, 17] ; losing tried []  20s
+W10: black wins(first 3) [7, 8, 16] ; losing tried [13, 17]  121s
+W7: black wins(first 3) [13, 8] ; losing tried [17, 16, 18, 2, 10, 14, 22, 1, 3, 5, 9, 15, 19, 21, 23, 0, 4, 20, 24]  167s
+W8: black wins(first 3) [7, 13, 19] ; losing tried [17, 16, 18, 2, 10, 14, 22, 1, 3, 5, 9, 15]  188s
+W14: black wins(first 3) [7, 13, 17] ; losing tried []  40s
+W15: black wins(first 3) [7, 13, 8] ; losing tried [17]  40s
+W13: black wins(first 3) [7, 8, 18] ; losing tried [17, 16]  126s
+W18: black wins(first 3) [7, 13, 17] ; losing tried []  36s
+W17: black wins(first 3) [7, 13, 8] ; losing tried []  78s
+W20: black wins(first 3) [7, 13, 17] ; losing tried []  8s
+W19: black wins(first 3) [7, 13, 17] ; losing tried []  14s
+W21: black wins(first 3) [7, 13, 17] ; losing tried []  16s
+W22: black wins(first 3) [7, 13, 17] ; losing tried []  22s
+W23: black wins(first 3) [7, 13, 17] ; losing tried []  18s
+W24: black wins(first 3) [7, 13, 17] ; losing tried []  9s
+W16: black wins(first 3) [7, 17, 8] ; losing tried [13]  158s

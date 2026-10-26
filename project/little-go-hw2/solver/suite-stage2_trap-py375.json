@@ -1,0 +1,10 @@
+{
+  "source": "stage2_trap/my_player3.py",
+  "source_sha256": "9ff151a329e4617321147a4d31967154c06ed9edaa127caf0a0288872b59aa7a",
+  "python": "3.7.5 (tags/v3.7.5:5c02a39, Oct 26 2026, 18:13:32) \n[GCC 13.3.0]",
+  "tests_run": 27,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "scope": "Actual selected source: complete rule, protocol and search suites. Historical candidate-comparison tests remain separate."
+}

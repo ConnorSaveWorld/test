@@ -1,0 +1,49 @@
+unique positions 173
+ERROR 12 side 1 wins [19] chosen {0: 1} [(9, 5, 2)] 0.8s
+ERROR 10 side 1 wins [3] chosen {3: 6, 22: 1} [(9, 1, 2), (9, 3, 2), (9, 5, 2), (9, 9, 2), (12, 1, 2), (12, 5, 2), (12, 7, 2)] 2.0s
+ERROR 6 side 1 wins [3] chosen {18: 1} [(12, 3, 2)] 42.2s
+count 6 nwin 1 positions 1 visits 1 errors 1
+count 6 nwin 3 positions 5 visits 44 errors 0
+count 7 nwin 0 positions 2 visits 30 errors 0
+count 7 nwin 3 positions 2 visits 15 errors 0
+count 8 nwin 2 positions 3 visits 9 errors 0
+count 8 nwin 3 positions 5 visits 36 errors 0
+count 9 nwin 0 positions 2 visits 30 errors 0
+count 9 nwin 3 positions 2 visits 15 errors 0
+count 10 nwin 1 positions 2 visits 9 errors 1
+count 10 nwin 3 positions 7 visits 36 errors 0
+count 11 nwin 0 positions 3 visits 30 errors 0
+count 11 nwin 3 positions 2 visits 15 errors 0
+count 12 nwin 1 positions 1 visits 1 errors 1
+count 12 nwin 3 positions 9 visits 44 errors 0
+count 13 nwin 0 positions 3 visits 30 errors 0
+count 13 nwin 2 positions 1 visits 9 errors 0
+count 13 nwin 3 positions 2 visits 6 errors 0
+count 14 nwin 0 positions 1 visits 1 errors 0
+count 14 nwin 1 positions 1 visits 9 errors 0
+count 14 nwin 3 positions 11 visits 35 errors 0
+count 15 nwin 0 positions 3 visits 30 errors 0
+count 15 nwin 3 positions 3 visits 15 errors 0
+count 16 nwin 0 positions 1 visits 1 errors 0
+count 16 nwin 3 positions 13 visits 44 errors 0
+count 17 nwin 0 positions 3 visits 30 errors 0
+count 17 nwin 3 positions 4 visits 15 errors 0
+count 18 nwin 0 positions 1 visits 1 errors 0
+count 18 nwin 1 positions 2 visits 4 errors 0
+count 18 nwin 2 positions 1 visits 9 errors 0
+count 18 nwin 3 positions 11 visits 31 errors 0
+count 19 nwin 0 positions 3 visits 30 errors 0
+count 19 nwin 3 positions 4 visits 15 errors 0
+count 20 nwin 0 positions 1 visits 1 errors 0
+count 20 nwin 1 positions 5 visits 17 errors 0
+count 20 nwin 2 positions 3 visits 5 errors 0
+count 20 nwin 3 positions 8 visits 22 errors 0
+count 21 nwin 0 positions 4 visits 30 errors 0
+count 21 nwin 3 positions 6 visits 15 errors 0
+count 22 nwin 0 positions 1 visits 1 errors 0
+count 22 nwin 1 positions 8 visits 12 errors 0
+count 22 nwin 2 positions 2 visits 8 errors 0
+count 22 nwin 3 positions 10 visits 24 errors 0
+count 23 nwin 0 positions 7 visits 30 errors 0
+count 23 nwin 2 positions 3 visits 10 errors 0
+count 23 nwin 3 positions 1 visits 5 errors 0
