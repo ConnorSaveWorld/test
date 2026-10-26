@@ -46,6 +46,7 @@ def save():
     pickle.dump(cache, open(tmp, 'wb')); os.replace(tmp, CACHE_FILE)
 
 K = int(os.environ.get("TRAP_K", "4"))
+NWMAX = int(os.environ.get("TRAP_NWMAX", "2"))
 CMAX = 13
 memo = {}
 def eval_white(s, trace=False):
@@ -69,7 +70,7 @@ def eval_white(s, trace=False):
     best = (0.0, scored[0][1]); best_detail = None
     for i, (nw, m, ch, wins) in enumerate(scored):
         e = err(ch.count, nw)
-        if i < K and nw <= 2 and ch.count + 1 <= CMAX:
+        if i < K and nw <= NWMAX and ch.count + 1 <= CMAX:
             rec = sum(eval_white(ch.play(b))[0] for b in wins) / len(wins)
         else:
             rec = 0.0

@@ -1,0 +1,17 @@
+trap baseline 24000 [12] winner 2 limit margin 0.5
+trap baseline 24000 [12, 6, 11] winner 2 limit margin 0.5
+trap baseline 48000 [12] winner 1 limit margin -3.5
+trap baseline 48000 [12, 6, 11] winner 1 limit margin -3.5
+trap baseline 96000 [12] winner 2 limit margin 2.5
+trap baseline 96000 [12, 6, 11] winner 2 limit margin 2.5
+trap pressure 24000 [12] winner 2 limit margin 0.5
+trap pressure 24000 [12, 6, 11] winner 1 limit margin -3.5
+trap pressure 48000 [12] winner 2 limit margin 0.5
+trap pressure 48000 [12, 6, 11] winner 2 limit margin 0.5
+trap pressure 96000 [12] winner 2 limit margin 0.5
+trap pressure 96000 [12, 6, 11] winner 2 limit margin 0.5
+trap survival 24000 [12] winner 2 limit margin 0.5
+trap survival 24000 [12, 6, 11] winner 2 limit margin 0.5
+trap survival 48000 [12] winner 2 limit margin 0.5
+trap survival 48000 [12, 6, 11] winner 2 limit margin 0.5
+trap survival 96000 [12] winner 2 limit margin 0.5

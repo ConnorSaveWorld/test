@@ -10,6 +10,8 @@ import sys, random, time, importlib.util, os, json
 from collections import defaultdict
 from lg import *
 from trapsearch import err, cache as MCACHE
+from trapsearch2 import err2, pcache as PCACHE
+MODEL = os.environ.get('MODEL', 'v2')
 
 os.environ['LITTLE_GO_CPU_SECONDS'] = os.environ.get('SIM_CPU', '1.0')
 
@@ -52,7 +54,8 @@ def black_move(s, emp, rng, use_emp=True):
     losing = [m for m, v in mv.items() if v == 0]
     if not wins:
         return rng.choice(sorted(mv)), 'lost'
-    if losing and rng.random() < err(s.count, len(wins)):
+    e = err(s.count, len(wins)) if MODEL == 'v1' else err2(s.count, len(wins), PCACHE.get(k, 0.0))
+    if losing and rng.random() < e:
         return rng.choice(sorted(losing)), 'error'
     return rng.choice(sorted(wins)), 'win'
 

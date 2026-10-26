@@ -1,0 +1,50 @@
+current baseline 24000 [12] winner 2 limit margin 2.5
+current baseline 24000 [12, 6, 11] winner 2 limit margin 2.5
+current baseline 48000 [12] winner 2 limit margin 2.5
+current baseline 48000 [12, 6, 11] winner 2 limit margin 2.5
+current baseline 96000 [12] winner 2 limit margin 2.5
+current baseline 96000 [12, 6, 11] winner 2 limit margin 2.5
+current pressure 24000 [12] winner 2 limit margin 4.5
+current pressure 24000 [12, 6, 11] winner 2 limit margin 0.5
+current pressure 48000 [12] winner 2 limit margin 5.5
+current pressure 48000 [12, 6, 11] winner 2 limit margin 0.5
+current pressure 96000 [12] winner 2 limit margin 4.5
+current pressure 96000 [12, 6, 11] winner 2 limit margin 2.5
+current survival 24000 [12] winner 2 limit margin 2.5
+current survival 24000 [12, 6, 11] winner 2 limit margin 2.5
+current survival 48000 [12] winner 2 limit margin 2.5
+current survival 48000 [12, 6, 11] winner 2 limit margin 2.5
+current survival 96000 [12] winner 2 limit margin 2.5
+current survival 96000 [12, 6, 11] winner 2 limit margin 2.5
+current space 24000 [12] winner 2 limit margin 6.5
+current space 24000 [12, 6, 11] winner 2 limit margin 2.5
+current space 48000 [12] winner 2 limit margin 5.5
+current space 48000 [12, 6, 11] winner 2 limit margin 2.5
+current space 96000 [12] winner 2 limit margin 2.5
+current space 96000 [12, 6, 11] winner 2 limit margin 2.5
+current white wins 24 / 24
+trap baseline 24000 [12] winner 1 limit margin -1.5
+trap baseline 24000 [12, 6, 11] winner 1 limit margin -1.5
+trap baseline 48000 [12] winner 1 limit margin -2.5
+trap baseline 48000 [12, 6, 11] winner 1 limit margin -2.5
+trap baseline 96000 [12] winner 2 limit margin 2.5
+trap baseline 96000 [12, 6, 11] winner 2 limit margin 2.5
+trap pressure 24000 [12] winner 2 limit margin 0.5
+trap pressure 24000 [12, 6, 11] winner 1 limit margin -1.5
+trap pressure 48000 [12] winner 2 limit margin 0.5
+trap pressure 48000 [12, 6, 11] winner 1 limit margin -2.5
+trap pressure 96000 [12] winner 2 limit margin 0.5
+trap pressure 96000 [12, 6, 11] winner 2 limit margin 0.5
+trap survival 24000 [12] winner 1 limit margin -1.5
+trap survival 24000 [12, 6, 11] winner 1 limit margin -1.5
+trap survival 48000 [12] winner 1 limit margin -1.5
+trap survival 48000 [12, 6, 11] winner 1 limit margin -1.5
+trap survival 96000 [12] winner 2 limit margin 0.5
+trap survival 96000 [12, 6, 11] winner 2 limit margin 0.5
+trap space 24000 [12] winner 2 limit margin 0.5
+trap space 24000 [12, 6, 11] winner 1 limit margin -1.5
+trap space 48000 [12] winner 2 limit margin 1.5
+trap space 48000 [12, 6, 11] winner 1 limit margin -1.5
+trap space 96000 [12] winner 2 limit margin 0.5
+trap space 96000 [12, 6, 11] winner 2 limit margin 0.5
+trap white wins 12 / 24

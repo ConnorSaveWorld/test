@@ -10,7 +10,7 @@ import sys, os, json, pickle, time, base64
 from multiprocessing import Pool
 from lg import *
 
-RUNTIME_MIN = 13
+RUNTIME_MIN = int(os.environ.get("RUNTIME_MIN", "13"))
 INV = [[i for i in range(8) if all(SYM[i][SYM[t][p]] == p for p in range(25))][0] for t in range(8)]
 
 
@@ -50,7 +50,7 @@ def win_subtree(key):
 
 
 def main():
-    memo = pickle.load(open('memo.pkl', 'rb'))
+    memo = pickle.load(open(os.environ.get('MEMO', 'memo.pkl'), 'rb'))
     cache = pickle.load(open('moves_cache.pkl', 'rb'))
     roots = [[int(x) for x in a.split(',')] for a in sys.argv[1:]]
     book = {}       # canonical key -> (kind, canonical move)
@@ -93,7 +93,7 @@ def main():
             if s2 is None or s2.count >= 24:
                 continue
             if val == 1:
-                if len(wins) <= 2:
+                if len(wins) <= int(os.environ.get("TRAP_NWMAX", "2")):
                     main_white(s2)
             else:
                 win_jobs.add(ckey(s2)[0])
@@ -116,7 +116,7 @@ def main():
                 print('  win subtrees %d/%d  book %d  %.0fs' % (i + 1, len(win_jobs), len(book), time.time() - t0), flush=True)
     bad = [k for k, v in book.items() if v[0] == 'LOST?']
     print('book entries', len(book), 'unexpected lost', len(bad))
-    pickle.dump(book, open('book.pkl', 'wb'))
+    pickle.dump(book, open(os.environ.get('BOOK', 'book.pkl'), 'wb'))
 
 
 if __name__ == '__main__':
