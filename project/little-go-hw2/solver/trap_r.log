@@ -1,0 +1,10 @@
+        white node count 7 value 0.468 best 18  (nwins [(16, 2), (17, 2), (18, 2), (9, 3), (2, 4), (10, 4), (14, 4), (21, 4)])
+        white node count 7 value 0.251 best 3  (nwins [(3, 2), (9, 2), (10, 3), (14, 3), (16, 4), (15, 8), (5, 12), (19, 13)])
+    white node count 5 value 0.379 best 13  (nwins [(13, 2), (3, 4), (16, 4), (10, 5), (18, 5), (9, 6), (14, 8), (15, 8)])
+ROOT [12, 6, 11, 7, 8] value 0.3789 best 13  428s
+        white node count 7 value 0.468 best 18  (nwins [(16, 2), (17, 2), (18, 2), (9, 3), (2, 4), (10, 4), (14, 4), (21, 4)])
+        white node count 7 value 0.251 best 3  (nwins [(3, 2), (9, 2), (10, 3), (14, 3), (16, 4), (15, 8), (5, 12), (19, 13)])
+    white node count 5 value 0.379 best 7  (nwins [(7, 2), (3, 4), (16, 4), (17, 4), (18, 4), (9, 5), (14, 7), (10, 9)])
+ROOT [12, 6, 11, 13, 8] value 0.3789 best 7  199s
+    white node count 5 value 0.005 best 8  (nwins [(8, 6), (10, 6), (14, 6), (16, 6), (7, 13), (17, 13), (9, 14), (15, 14)])
+ROOT [12, 6, 11, 18, 13] value 0.0050 best 8  116s
