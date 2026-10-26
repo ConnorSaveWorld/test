@@ -1,0 +1,112 @@
+[
+  {
+    "games": 24,
+    "actions": 576,
+    "wins": 22,
+    "source_sha256": "604ea3ee7228a790cbcef60c2a8a6dfac043acb83d4a72ce30c2568466bd1dcb",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-white-reply-develop-white.json",
+    "variant": "baseline"
+  },
+  {
+    "games": 24,
+    "actions": 576,
+    "wins": 24,
+    "source_sha256": "4edca990f6360dc2108f32391a5e3ad7ab203cab5768cd4755e73dacbb647a30",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-white-reply-develop-white.json",
+    "variant": "candidate"
+  },
+  {
+    "games": 24,
+    "actions": 576,
+    "wins": 15,
+    "source_sha256": "604ea3ee7228a790cbcef60c2a8a6dfac043acb83d4a72ce30c2568466bd1dcb",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-white-reply-heldout-black.json",
+    "variant": "baseline"
+  },
+  {
+    "games": 24,
+    "actions": 576,
+    "wins": 15,
+    "source_sha256": "4edca990f6360dc2108f32391a5e3ad7ab203cab5768cd4755e73dacbb647a30",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-white-reply-heldout-black.json",
+    "variant": "candidate"
+  },
+  {
+    "games": 6,
+    "actions": 144,
+    "wins": 6,
+    "source_sha256": "4edca990f6360dc2108f32391a5e3ad7ab203cab5768cd4755e73dacbb647a30",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-white-reply-center-independent.json"
+  },
+  {
+    "games": 60,
+    "actions": 1440,
+    "wins": 60,
+    "source_sha256": "4edca990f6360dc2108f32391a5e3ad7ab203cab5768cd4755e73dacbb647a30",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-white-reply-basic-regression.json"
+  },
+  {
+    "games": 4,
+    "actions": 96,
+    "wins": 4,
+    "source_sha256": "4edca990f6360dc2108f32391a5e3ad7ab203cab5768cd4755e73dacbb647a30",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-white-reply-mirrored-approach.json"
+  },
+  {
+    "games": 2,
+    "actions": 48,
+    "wins": 2,
+    "source_sha256": "4edca990f6360dc2108f32391a5e3ad7ab203cab5768cd4755e73dacbb647a30",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-white-reply-production-py37.json"
+  },
+  {
+    "games": 23,
+    "actions": 546,
+    "wins": 7,
+    "source_sha256": "c8cb449260e7b440000a94593adef5c21d6e5529a01f88251ae982fff6a58894",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-white-third-ply-training.json"
+  },
+  {
+    "games": 15,
+    "actions": 360,
+    "wins": 13,
+    "source_sha256": "c8cb449260e7b440000a94593adef5c21d6e5529a01f88251ae982fff6a58894",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-white-third-ply-validation.json"
+  },
+  {
+    "games": 24,
+    "actions": 576,
+    "wins": 21,
+    "source_sha256": "604ea3ee7228a790cbcef60c2a8a6dfac043acb83d4a72ce30c2568466bd1dcb",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-white-reply-heldout-white.json",
+    "variant": "baseline"
+  },
+  {
+    "games": 24,
+    "actions": 576,
+    "wins": 21,
+    "source_sha256": "4edca990f6360dc2108f32391a5e3ad7ab203cab5768cd4755e73dacbb647a30",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-white-reply-heldout-white.json",
+    "variant": "candidate"
+  },
+  {
+    "games": 3,
+    "actions": 72,
+    "wins": 3,
+    "source_sha256": "4edca990f6360dc2108f32391a5e3ad7ab203cab5768cd4755e73dacbb647a30",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-white-reply-heldout-production-recheck.json"
+  }
+]

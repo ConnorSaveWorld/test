@@ -1,0 +1,9 @@
+{
+  "submission": 7,
+  "source_sha256": "4edca990f6360dc2108f32391a5e3ad7ab203cab5768cd4755e73dacbb647a30",
+  "matches_delivered_source": true,
+  "history_sha256": "95adf89e85a64baa3035795fc59d53ad4971f29ac57aaed5c37dbb364ce285cc",
+  "history_games_validated": 20,
+  "history_actions_validated": 480,
+  "provenance": "Read-only Vocareum Submissions/Submission_7, file Download -> generated zipped source -> local extraction. Source archive1-35-25pm and history archive1-37-03pm PDT onOct18."
+}

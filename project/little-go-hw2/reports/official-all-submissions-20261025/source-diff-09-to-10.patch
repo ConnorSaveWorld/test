@@ -1,0 +1,52 @@
+--- submission9
++++ submission10
+@@ -557,22 +557,45 @@
+     pb, pw = _pack(previous)
+     black, white = _pack(board)
+     # Local targeted hypothesis from the recorded Championship lines:
+-    # preserve reply18 after the Black-7 approach, but answer the observed
+-    # Black-11 approach with the counterwall at13. All other states search.
++    # Trial: use reply17 after Black-7 while preserving the proved Black-11
++    # counterwall. All other states search.
+     # Fixed-depth solver calls retain their requested minimax semantics.
+     if color == 2 and move_count == 3 and max_depth is None and not last_pass:
+         for mapping in _SYMMETRY_MAPS:
+             center, own, approach = (1 << mapping[p] for p in (12, 6, 7))
+             if (pb == center and pw == own and black == (center | approach)
+                     and white == own):
+-                opening_action = mapping[17] if mapping[7] == 11 else mapping[18]
++                opening_action = mapping[17]
+                 if any(point == opening_action for point, _, _ in
+                        _bit_moves(pb, pw, black, white, color)):
+                     stats.update(opening_policy=True,
+-                                 opening_origin='local-counterwall-black11-v1',
++                                 opening_origin='local-second-reply-B7-17-v1',
+                                  cpu_seconds=time.process_time() - started_cpu,
+                                  wall_seconds=time.monotonic() - started_wall)
+                     return opening_action, stats
++    # In the pressure-profile loss after White's B7 reply17, Black answered
++    # with18, White played16, and Black approached at11. Test a counterwall13
++    # only for this exact seven-ply history; other positions still use search.
++    if color == 2 and move_count == 7 and max_depth is None and not last_pass:
++        for mapping in _SYMMETRY_MAPS:
++            expected_previous = EMPTY
++            expected_board = EMPTY
++            for index, point in enumerate((12, 6, 7, 17, 18, 16, 11)):
++                updated = play_move(expected_previous, expected_board,
++                                    1 + index % 2, mapping[point])
++                if updated is None:
++                    break
++                expected_previous, expected_board = expected_board, updated
++            if (tuple(previous) == expected_previous
++                    and tuple(board) == expected_board):
++                followup = mapping[13]
++                if any(point == followup for point, _, _ in
++                       _bit_moves(pb, pw, black, white, color)):
++                    stats.update(opening_policy=True,
++                                 opening_origin='local-B7-17-B18-W16-B11-counterwall13-v1',
++                                 cpu_seconds=time.process_time() - started_cpu,
++                                 wall_seconds=time.monotonic() - started_wall)
++                    return followup, stats
+     table = {}
+     root_actions = _bit_order(pb, pw, black, white, color,
+                               passed=last_pass, ordering=use_ordering)

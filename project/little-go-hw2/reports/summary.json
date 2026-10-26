@@ -1,0 +1,359 @@
+{
+  "source_sha256": "b5ec69b0c8cf0e016d5f7fb32486058be2c3b1534df9842badd46aa052b01d62",
+  "rules": {
+    "states": 1000,
+    "placements_compared": 25000,
+    "seed": 561,
+    "mismatches": 0,
+    "sources": [
+      "submission",
+      "independent matrix oracle",
+      "official GO"
+    ]
+  },
+  "compatibility": {
+    "runtime": "CPython 3.7.5 compiled from official Python.org source in WSL Ubuntu 24.04",
+    "full_test_suite": {
+      "tests": 36,
+      "passed": 36,
+      "failures": 0,
+      "errors": 0
+    },
+    "submission_sha256": "b5ec69b0c8cf0e016d5f7fb32486058be2c3b1534df9842badd46aa052b01d62",
+    "note": "Verified by actual python.exe ELF interpreter, not a grammar-only check. Vocareum remains untested."
+  },
+  "tournaments": [
+    {
+      "opponent": "official-random",
+      "games": 200,
+      "wins": 199,
+      "win_rate": 0.995,
+      "by_color": {
+        "1": {
+          "games": 100,
+          "wins": 99
+        },
+        "2": {
+          "games": 100,
+          "wins": 100
+        }
+      },
+      "configuration": {
+        "cpu_seconds": 0.025,
+        "max_depth": null,
+        "use_table": true,
+        "use_ordering": true
+      },
+      "mean_cpu": 0.0274609375,
+      "max_cpu": 0.125,
+      "max_wall": 0.14100000000325963,
+      "max_game_cpu": 0.46875,
+      "failures": {
+        "invalid": 0,
+        "timeout": 0,
+        "crash": 0
+      },
+      "wilson95": [
+        0.9722262956021069,
+        0.9991168312843989
+      ],
+      "seed_start": 10000
+    },
+    {
+      "opponent": "greedy-proxy",
+      "games": 200,
+      "wins": 199,
+      "win_rate": 0.995,
+      "by_color": {
+        "1": {
+          "games": 100,
+          "wins": 99
+        },
+        "2": {
+          "games": 100,
+          "wins": 100
+        }
+      },
+      "configuration": {
+        "cpu_seconds": 0.025,
+        "max_depth": null,
+        "use_table": true,
+        "use_ordering": true
+      },
+      "mean_cpu": 0.027584635416666666,
+      "max_cpu": 0.125,
+      "max_wall": 0.14100000000325963,
+      "max_game_cpu": 0.4375,
+      "failures": {
+        "invalid": 0,
+        "timeout": 0,
+        "crash": 0
+      },
+      "wilson95": [
+        0.9722262956021069,
+        0.9991168312843989
+      ],
+      "seed_start": 10000
+    },
+    {
+      "opponent": "aggressive-proxy",
+      "games": 200,
+      "wins": 196,
+      "win_rate": 0.98,
+      "by_color": {
+        "1": {
+          "games": 100,
+          "wins": 96
+        },
+        "2": {
+          "games": 100,
+          "wins": 100
+        }
+      },
+      "configuration": {
+        "cpu_seconds": 0.025,
+        "max_depth": null,
+        "use_table": true,
+        "use_ordering": true
+      },
+      "mean_cpu": 0.027415364583333334,
+      "max_cpu": 0.125,
+      "max_wall": 0.1409999999741558,
+      "max_game_cpu": 0.453125,
+      "failures": {
+        "invalid": 0,
+        "timeout": 0,
+        "crash": 0
+      },
+      "wilson95": [
+        0.9497129130941735,
+        0.9921955735836505
+      ],
+      "seed_start": 10000
+    },
+    {
+      "opponent": "alphabeta-proxy",
+      "games": 200,
+      "wins": 74,
+      "win_rate": 0.37,
+      "by_color": {
+        "1": {
+          "games": 100,
+          "wins": 43
+        },
+        "2": {
+          "games": 100,
+          "wins": 31
+        }
+      },
+      "configuration": {
+        "cpu_seconds": 0.025,
+        "max_depth": null,
+        "use_table": true,
+        "use_ordering": true
+      },
+      "mean_cpu": 0.026940104166666666,
+      "max_cpu": 0.109375,
+      "max_wall": 0.10999999998603016,
+      "max_game_cpu": 0.4375,
+      "failures": {
+        "invalid": 0,
+        "timeout": 0,
+        "crash": 0
+      },
+      "wilson95": [
+        0.30612608409859116,
+        0.4387737007594981
+      ],
+      "seed_start": 10000
+    },
+    {
+      "opponent": "alphabeta-proxy",
+      "games": 40,
+      "wins": 32,
+      "win_rate": 0.8,
+      "by_color": {
+        "1": {
+          "games": 20,
+          "wins": 13
+        },
+        "2": {
+          "games": 20,
+          "wins": 19
+        }
+      },
+      "configuration": {
+        "cpu_seconds": 0.2,
+        "max_depth": null,
+        "use_table": true,
+        "use_ordering": true
+      },
+      "mean_cpu": 0.15530598958333333,
+      "max_cpu": 0.28125,
+      "max_wall": 0.360000000015134,
+      "max_game_cpu": 1.96875,
+      "failures": {
+        "invalid": 0,
+        "timeout": 0,
+        "crash": 0
+      },
+      "wilson95": [
+        0.652426936536005,
+        0.895000102745623
+      ],
+      "seed_start": 30000
+    },
+    {
+      "opponent": "alphabeta-proxy",
+      "games": 40,
+      "wins": 38,
+      "win_rate": 0.95,
+      "by_color": {
+        "1": {
+          "games": 20,
+          "wins": 18
+        },
+        "2": {
+          "games": 20,
+          "wins": 20
+        }
+      },
+      "configuration": {
+        "cpu_seconds": 0.75,
+        "max_depth": null,
+        "use_table": true,
+        "use_ordering": true
+      },
+      "mean_cpu": 0.54013671875,
+      "max_cpu": 0.8125,
+      "max_wall": 0.9060000000172295,
+      "max_game_cpu": 6.921875,
+      "failures": {
+        "invalid": 0,
+        "timeout": 0,
+        "crash": 0
+      },
+      "wilson95": [
+        0.8349612263085903,
+        0.9861793326138516
+      ],
+      "seed_start": 30000
+    },
+    {
+      "opponent": "alphabeta-proxy",
+      "games": 10,
+      "wins": 9,
+      "win_rate": 0.9,
+      "by_color": {
+        "1": {
+          "games": 5,
+          "wins": 5
+        },
+        "2": {
+          "games": 5,
+          "wins": 4
+        }
+      },
+      "configuration": {
+        "cpu_seconds": 3.0,
+        "max_depth": null,
+        "use_table": true,
+        "use_ordering": true
+      },
+      "mean_cpu": 2.009895833333333,
+      "max_cpu": 3.078125,
+      "max_wall": 3.4369999999762513,
+      "max_game_cpu": 24.6875,
+      "failures": {
+        "invalid": 0,
+        "timeout": 0,
+        "crash": 0
+      },
+      "wilson95": [
+        0.5958499732047615,
+        0.9821237869049271
+      ],
+      "seed_start": 90000
+    }
+  ],
+  "deployment_interface": {
+    "python": "3.7.5 (default, Oct 12 2026, 15:17:15) \n[GCC 13.3.0]",
+    "budget_override": null,
+    "games": 2,
+    "note": "Actual fresh-process interface check against official Random; small unseeded sample, not a win-rate estimate.",
+    "legality_validation": "Every logged action replayed through a fresh official GO; 48 legal actions; terminal score matched"
+  },
+  "learning": {
+    "search": {
+      "wins": 18,
+      "games": 40,
+      "win_rate": 0.45,
+      "by_color": {
+        "1": {
+          "games": 20,
+          "wins": 9
+        },
+        "2": {
+          "games": 20,
+          "wins": 9
+        }
+      },
+      "failures": {
+        "invalid": 0,
+        "timeout": 0,
+        "crash": 0
+      },
+      "mean_cpu": 0.026595052083333334
+    },
+    "learned-policy": {
+      "wins": 0,
+      "games": 40,
+      "win_rate": 0.0,
+      "by_color": {
+        "1": {
+          "games": 20,
+          "wins": 0
+        },
+        "2": {
+          "games": 20,
+          "wins": 0
+        }
+      },
+      "failures": {
+        "invalid": 0,
+        "timeout": 0,
+        "crash": 0
+      },
+      "mean_cpu": 0.0006510416666666666
+    },
+    "hybrid": {
+      "wins": 1,
+      "games": 40,
+      "win_rate": 0.025,
+      "by_color": {
+        "1": {
+          "games": 20,
+          "wins": 1
+        },
+        "2": {
+          "games": 20,
+          "wins": 0
+        }
+      },
+      "failures": {
+        "invalid": 0,
+        "timeout": 0,
+        "crash": 0
+      },
+      "mean_cpu": 0.027498695198329853
+    },
+    "deployment": "search-only; local experiment does not establish advanced-grader improvement"
+  },
+  "limitations": [
+    "No actual hidden Alpha-beta/Q-learning/Championship results",
+    "No Vocareum timing or helper-persistence validation",
+    "Time-limited searches can vary with machine load",
+    "Large benchmark batches used small budgets; default-budget sample is small",
+    "Original random baseline began before helper-only fixes; search/rules/evaluation unchanged, source digest recorded at report end"
+  ]
+}

@@ -1,0 +1,248 @@
+[
+  {
+    "submission": 1,
+    "path": "submit\\cnt1",
+    "files": [],
+    "report": "\n[Executed at: Tue Oct 13 8:58:56 PDT 2026]\n\nProgramming language...\nERROR: INVALID FILENAME\n\nCommand exited with non-zero status 1\n",
+    "all_files": [
+      ".vocStudentSubmissionReport.txt"
+    ]
+  },
+  {
+    "submission": 2,
+    "path": "submit\\cnt2",
+    "files": [
+      {
+        "name": "my_player3.py",
+        "sha256": "dda83b2ac22036ea4bdc49418193aa38893fe4f1f6c64d06494e2a45156bff36",
+        "bytes": 21951
+      }
+    ],
+    "report": "\n[Executed at: Tue Oct 13 9:15:13 PDT 2026]\n\nProgramming language...\nPY3\n\nTue 13 Oct 2026 09:02:03 AM PDT\n\nPlaying with qlearning_player...\nTue 13 Oct 2026 09:02:03 AM PDT\n=====Summary=====\nYou play as Black Player | Win: 4 | Lose: 1 | Tie: 0\nYou play as White Player | Win: 5 | Lose: 0 | Tie: 0\n\nPlaying with championship_player...\nTue 13 Oct 2026 09:07:22 AM PDT\n=====Summary=====\nYou play as Black Player | Win: 0 | Lose: 5 | Tie: 0\nYou play as White Player | Win: 0 | Lose: 5 | Tie: 0\n\nResult:\nqlearning win rate: 0.9\nchampionship win rate: 0\nFinal score: 5\n\nMission Completed.\nTue 13 Oct 2026 09:15:11 AM PDT\n\n",
+    "all_files": [
+      ".vocStudentSubmissionReport.txt",
+      "history.log",
+      "my_player3.py"
+    ],
+    "validation": {
+      "games": 20,
+      "actions": 480,
+      "wins": 9,
+      "complete": true
+    }
+  },
+  {
+    "submission": 3,
+    "path": "submit\\cnt3",
+    "files": [
+      {
+        "name": "my_player3.py",
+        "sha256": "dda83b2ac22036ea4bdc49418193aa38893fe4f1f6c64d06494e2a45156bff36",
+        "bytes": 21951
+      }
+    ],
+    "report": "\n[Executed at: Tue Oct 13 12:09:36 PDT 2026]\n\nProgramming language...\nPY3\n\nTue 13 Oct 2026 11:56:30 AM PDT\n\nPlaying with qlearning_player...\nTue 13 Oct 2026 11:56:30 AM PDT\n=====Summary=====\nYou play as Black Player | Win: 2 | Lose: 3 | Tie: 0\nYou play as White Player | Win: 5 | Lose: 0 | Tie: 0\n\nPlaying with championship_player...\nTue 13 Oct 2026 12:01:48 PM PDT\n=====Summary=====\nYou play as Black Player | Win: 0 | Lose: 5 | Tie: 0\nYou play as White Player | Win: 0 | Lose: 5 | Tie: 0\n\nResult:\nqlearning win rate: 0.7\nchampionship win rate: 0\nFinal score: 3.5\n\nMission Completed.\nTue 13 Oct 2026 12:09:35 PM PDT\n\n",
+    "all_files": [
+      ".vocStudentSubmissionReport.txt",
+      "history.log",
+      "my_player3.py"
+    ],
+    "validation": {
+      "games": 20,
+      "actions": 480,
+      "wins": 7,
+      "complete": true
+    }
+  },
+  {
+    "submission": 4,
+    "path": "submit\\cnt4",
+    "files": [
+      {
+        "name": "my_player3.py",
+        "sha256": "4a219c507c529f466235eeebeded1467fdb4323496963068fceef370b264eb9f",
+        "bytes": 22132
+      }
+    ],
+    "report": "\n[Executed at: Thu Oct 15 21:04:06 PDT 2026]\n\nProgramming language...\nPY3\n\nThu 15 Oct 2026 08:50:53 PM PDT\n\nPlaying with qlearning_player...\nThu 15 Oct 2026 08:50:53 PM PDT\n=====Summary=====\nYou play as Black Player | Win: 5 | Lose: 0 | Tie: 0\nYou play as White Player | Win: 5 | Lose: 0 | Tie: 0\n\nPlaying with championship_player...\nThu 15 Oct 2026 08:56:18 PM PDT\n=====Summary=====\nYou play as Black Player | Win: 0 | Lose: 5 | Tie: 0\nYou play as White Player | Win: 0 | Lose: 5 | Tie: 0\n\nResult:\nqlearning win rate: 1\nchampionship win rate: 0\nFinal score: 5\n\nMission Completed.\nThu 15 Oct 2026 09:04:05 PM PDT\n\n",
+    "all_files": [
+      ".vocStudentSubmissionReport.txt",
+      "history.log",
+      "my_player3.py"
+    ],
+    "validation": {
+      "games": 20,
+      "actions": 480,
+      "wins": 10,
+      "complete": true
+    }
+  },
+  {
+    "submission": 5,
+    "path": "submit\\cnt5",
+    "files": [
+      {
+        "name": "my_player3.py",
+        "sha256": "9eae2f97961f95ea4d3ec3c34bee4478fffbc44b2eccf125492a9d205d82c791",
+        "bytes": 22293
+      }
+    ],
+    "report": "\n[Executed at: Thu Oct 15 22:14:50 PDT 2026]\n\nProgramming language...\nPY3\n\nThu 15 Oct 2026 09:52:38 PM PDT\n\nPlaying with qlearning_player...\nThu 15 Oct 2026 09:52:38 PM PDT\n=====Summary=====\nYou play as Black Player | Win: 5 | Lose: 0 | Tie: 0\nYou play as White Player | Win: 5 | Lose: 0 | Tie: 0\n\nPlaying with championship_player...\nThu 15 Oct 2026 10:02:36 PM PDT\n=====Summary=====\nYou play as Black Player | Win: 5 | Lose: 0 | Tie: 0\nYou play as White Player | Win: 0 | Lose: 5 | Tie: 0\n\nResult:\nqlearning win rate: 1\nchampionship win rate: 0.5\nFinal score: 6\n\nMission Completed.\nThu 15 Oct 2026 10:14:48 PM PDT\n\n",
+    "all_files": [
+      ".vocStudentSubmissionReport.txt",
+      "history.log",
+      "my_player3.py"
+    ],
+    "validation": {
+      "games": 20,
+      "actions": 480,
+      "wins": 15,
+      "complete": true
+    }
+  },
+  {
+    "submission": 6,
+    "path": "submit\\cnt6",
+    "files": [
+      {
+        "name": "my_player3.py",
+        "sha256": "604ea3ee7228a790cbcef60c2a8a6dfac043acb83d4a72ce30c2568466bd1dcb",
+        "bytes": 22650
+      }
+    ],
+    "report": "\n[Executed at: Sat Oct 17 16:10:09 PDT 2026]\n\nProgramming language...\nPY3\n\nSat 17 Oct 2026 03:46:37 PM PDT\n\nPlaying with qlearning_player...\nSat 17 Oct 2026 03:46:37 PM PDT\n=====Summary=====\nYou play as Black Player | Win: 5 | Lose: 0 | Tie: 0\nYou play as White Player | Win: 5 | Lose: 0 | Tie: 0\n\nPlaying with championship_player...\nSat 17 Oct 2026 03:57:22 PM PDT\n=====Summary=====\nYou play as Black Player | Win: 5 | Lose: 0 | Tie: 0\nYou play as White Player | Win: 0 | Lose: 5 | Tie: 0\n\nResult:\nqlearning win rate: 1\nchampionship win rate: 0.5\nFinal score: 6\n\nMission Completed.\nSat 17 Oct 2026 04:10:05 PM PDT\n\n",
+    "all_files": [
+      ".vocStudentSubmissionReport.txt",
+      "history.log",
+      "my_player3.py"
+    ],
+    "validation": {
+      "games": 20,
+      "actions": 480,
+      "wins": 15,
+      "complete": true
+    }
+  },
+  {
+    "submission": 7,
+    "path": "submit\\cnt7",
+    "files": [
+      {
+        "name": "my_player3.py",
+        "sha256": "4edca990f6360dc2108f32391a5e3ad7ab203cab5768cd4755e73dacbb647a30",
+        "bytes": 26738
+      }
+    ],
+    "report": "\n[Executed at: Sun Oct 18 13:29:53 PDT 2026]\n\nProgramming language...\nPY3\n\nSun 18 Oct 2026 01:05:48 PM PDT\n\nPlaying with qlearning_player...\nSun 18 Oct 2026 01:05:49 PM PDT\n=====Summary=====\nYou play as Black Player | Win: 5 | Lose: 0 | Tie: 0\nYou play as White Player | Win: 5 | Lose: 0 | Tie: 0\n\nPlaying with championship_player...\nSun 18 Oct 2026 01:17:07 PM PDT\n=====Summary=====\nYou play as Black Player | Win: 5 | Lose: 0 | Tie: 0\nYou play as White Player | Win: 0 | Lose: 5 | Tie: 0\n\nResult:\nqlearning win rate: 1\nchampionship win rate: 0.5\nFinal score: 6\n\nMission Completed.\nSun 18 Oct 2026 01:29:45 PM PDT\n\n",
+    "all_files": [
+      ".vocStudentSubmissionReport.txt",
+      "history.log",
+      "my_player3.py"
+    ],
+    "validation": {
+      "games": 20,
+      "actions": 480,
+      "wins": 15,
+      "complete": true
+    }
+  },
+  {
+    "submission": 8,
+    "path": "submit\\cnt8",
+    "files": [
+      {
+        "name": "my_player3.py",
+        "sha256": "4edca990f6360dc2108f32391a5e3ad7ab203cab5768cd4755e73dacbb647a30",
+        "bytes": 26738
+      }
+    ],
+    "report": "\n[Executed at: Sun Oct 18 18:37:27 PDT 2026]\n\nProgramming language...\nPY3\n\nSun 18 Oct 2026 06:15:12 PM PDT\n\nPlaying with qlearning_player...\nSun 18 Oct 2026 06:15:12 PM PDT\n=====Summary=====\nYou play as Black Player | Win: 5 | Lose: 0 | Tie: 0\nYou play as White Player | Win: 5 | Lose: 0 | Tie: 0\n\nPlaying with championship_player...\nSun 18 Oct 2026 06:25:46 PM PDT\n=====Summary=====\nYou play as Black Player | Win: 5 | Lose: 0 | Tie: 0\nYou play as White Player | Win: 0 | Lose: 5 | Tie: 0\n\nResult:\nqlearning win rate: 1\nchampionship win rate: 0.5\nFinal score: 6\n\nMission Completed.\nSun 18 Oct 2026 06:37:25 PM PDT\n\n",
+    "all_files": [
+      ".vocStudentSubmissionReport.txt",
+      "history.log",
+      "my_player3.py"
+    ],
+    "validation": {
+      "games": 20,
+      "actions": 480,
+      "wins": 15,
+      "complete": true
+    }
+  },
+  {
+    "submission": 9,
+    "path": "submit\\cnt9",
+    "files": [
+      {
+        "name": "my_player3.py",
+        "sha256": "122a9c0bc0e668687106cc1939aecb60cdf34851fb26b44669cf9fe891e1e24d",
+        "bytes": 26837
+      }
+    ],
+    "report": "\n[Executed at: Mon Oct 19 15:02:02 PDT 2026]\n\nProgramming language...\nPY3\n\nMon 19 Oct 2026 02:39:14 PM PDT\n\nPlaying with qlearning_player...\nMon 19 Oct 2026 02:39:14 PM PDT\n=====Summary=====\nYou play as Black Player | Win: 5 | Lose: 0 | Tie: 0\nYou play as White Player | Win: 5 | Lose: 0 | Tie: 0\n\nPlaying with championship_player...\nMon 19 Oct 2026 02:49:53 PM PDT\n=====Summary=====\nYou play as Black Player | Win: 5 | Lose: 0 | Tie: 0\nYou play as White Player | Win: 1 | Lose: 4 | Tie: 0\n\nResult:\nqlearning win rate: 1\nchampionship win rate: 0.6\nFinal score: 6.2\n\nMission Completed.\nMon 19 Oct 2026 03:01:59 PM PDT\n\n",
+    "all_files": [
+      ".vocStudentSubmissionReport.txt",
+      "history.log",
+      "my_player3.py"
+    ],
+    "validation": {
+      "games": 20,
+      "actions": 480,
+      "wins": 16,
+      "complete": true
+    }
+  },
+  {
+    "submission": 10,
+    "path": "submit\\cnt10",
+    "files": [
+      {
+        "name": "my_player3.py",
+        "sha256": "cefadb4f805e5d95e2f157a5b50619e476ed05dea47bef36e6ac1a0a56661698",
+        "bytes": 28161
+      }
+    ],
+    "report": "",
+    "all_files": [
+      "my_player3.py"
+    ]
+  },
+  {
+    "submission": 11,
+    "path": "submit\\cnt11",
+    "files": [
+      {
+        "name": "my_player3.py",
+        "sha256": "cefadb4f805e5d95e2f157a5b50619e476ed05dea47bef36e6ac1a0a56661698",
+        "bytes": 28161
+      }
+    ],
+    "report": "",
+    "all_files": [
+      "my_player3.py"
+    ]
+  },
+  {
+    "submission": 12,
+    "path": "submit\\cnt12",
+    "files": [
+      {
+        "name": "my_player3.py",
+        "sha256": "cefadb4f805e5d95e2f157a5b50619e476ed05dea47bef36e6ac1a0a56661698",
+        "bytes": 28161
+      }
+    ],
+    "report": "\n[Executed at: Fri Oct 23 15:29:48 PDT 2026]\n\nProgramming language...\nPY3\n\nFri 23 Oct 2026 03:06:57 PM PDT\n\nPlaying with qlearning_player...\nFri 23 Oct 2026 03:06:57 PM PDT\n=====Summary=====\nYou play as Black Player | Win: 5 | Lose: 0 | Tie: 0\nYou play as White Player | Win: 5 | Lose: 0 | Tie: 0\n\nPlaying with championship_player...\nFri 23 Oct 2026 03:17:46 PM PDT\n=====Summary=====\nYou play as Black Player | Win: 5 | Lose: 0 | Tie: 0\nYou play as White Player | Win: 0 | Lose: 5 | Tie: 0\n\nResult:\nqlearning win rate: 1\nchampionship win rate: 0.5\nFinal score: 6\n\nMission Completed.\nFri 23 Oct 2026 03:29:45 PM PDT\n\n",
+    "all_files": [
+      ".vocStudentSubmissionReport.txt",
+      "history.log",
+      "my_player3.py"
+    ],
+    "validation": {
+      "games": 20,
+      "actions": 480,
+      "wins": 15,
+      "complete": true
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "opponent": "aggressive-proxy",
+  "completed": 9,
+  "planned": 20,
+  "wins": 9,
+  "wall_seconds": 233.17141954800172,
+  "by_color": {
+    "1": {
+      "games": 5,
+      "wins": 5
+    },
+    "2": {
+      "games": 4,
+      "wins": 4
+    }
+  }
+}

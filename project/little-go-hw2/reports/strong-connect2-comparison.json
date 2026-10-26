@@ -1,0 +1,21 @@
+{
+  "source_sha256": "4a219c507c529f466235eeebeded1467fdb4323496963068fceef370b264eb9f",
+  "heldout": {
+    "baseline_wins": 33,
+    "candidate_wins": 41,
+    "games_each": 64,
+    "improved": 18,
+    "regressed": 10,
+    "unchanged": 36
+  },
+  "timing": {
+    "baseline": {
+      "mean_nonopening_cpu": 0.17268552010085184,
+      "max_cpu": 0.2672372040000006
+    },
+    "candidate": {
+      "mean_nonopening_cpu": 0.1698199748342855,
+      "max_cpu": 0.26481319999999187
+    }
+  }
+}

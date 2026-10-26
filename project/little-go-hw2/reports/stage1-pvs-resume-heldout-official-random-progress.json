@@ -1,0 +1,17 @@
+{
+  "opponent": "official-random",
+  "completed": 20,
+  "planned": 20,
+  "wins": 19,
+  "wall_seconds": 532.9981209420075,
+  "by_color": {
+    "1": {
+      "games": 10,
+      "wins": 9
+    },
+    "2": {
+      "games": 10,
+      "wins": 10
+    }
+  }
+}

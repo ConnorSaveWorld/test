@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-10-18T00:26:05.348018-07:00",
+  "files": [
+    "my_player3.py"
+  ],
+  "candidate_sha256": "4edca990f6360dc2108f32391a5e3ad7ab203cab5768cd4755e73dacbb647a30",
+  "source_bytes": 26738,
+  "zip_bytes": 6988,
+  "byte_match": true,
+  "stage1_delivery_unchanged": true,
+  "stage1_sha256": "dda83b2ac22036ea4bdc49418193aa38893fe4f1f6c64d06494e2a45156bff36",
+  "copies": [
+    "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2\\experiments\\candidate_white_reply.py",
+    "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2\\stage2_candidate\\my_player3.py",
+    "C:\\Users\\paul2\\Downloads\\my_player3.py",
+    "C:\\Users\\paul2\\Downloads\\little-go-stage2-candidate-extracted\\my_player3.py"
+  ],
+  "zip_paths": [
+    "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2\\little-go-stage2-candidate.zip",
+    "C:\\Users\\paul2\\Downloads\\little-go-stage2-candidate.zip"
+  ],
+  "backups": [
+    "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2\\backups\\stage2-before-white-reply-604ea3ee7228.py",
+    "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2\\backups\\downloads-before-white-reply-604ea3ee7228.py"
+  ],
+  "official_status": "not yet tested on official Stage2; previous official submission6 score remains6",
+  "validation_report": "STAGE2-WHITE-READY-20261018.md"
+}

@@ -1,0 +1,140 @@
+{
+  "kind": "local fresh-process Stage1 rehearsal, not Vocareum grading",
+  "games": 80,
+  "total_agent_cpu": 1880.065622814,
+  "stage_cpu_limit": 7200,
+  "within_local_stage_cpu_limit": true,
+  "failures": {
+    "invalid": 0,
+    "timeout": 0,
+    "crash": 0
+  },
+  "source_sha256": "4a219c507c529f466235eeebeded1467fdb4323496963068fceef370b264eb9f",
+  "opponents": [
+    {
+      "opponent": "official-random",
+      "games": 20,
+      "wins": 20,
+      "by_color": {
+        "1": {
+          "games": 10,
+          "wins": 10
+        },
+        "2": {
+          "games": 10,
+          "wins": 10
+        }
+      },
+      "mean_cpu": 1.9513067304041665,
+      "max_cpu": 3.169110872000002,
+      "max_wall": 3.984744449990103,
+      "max_game_cpu": 25.44738054899999,
+      "total_agent_cpu": 468.31361529699996,
+      "wilson95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "failures": {
+        "invalid": 0,
+        "timeout": 0,
+        "crash": 0
+      },
+      "meets_18_of_20": true,
+      "proxy_rubric_points": 25
+    },
+    {
+      "opponent": "greedy-proxy",
+      "games": 20,
+      "wins": 20,
+      "by_color": {
+        "1": {
+          "games": 10,
+          "wins": 10
+        },
+        "2": {
+          "games": 10,
+          "wins": 10
+        }
+      },
+      "mean_cpu": 1.9782865670791665,
+      "max_cpu": 3.277850378000003,
+      "max_wall": 4.248025213004439,
+      "max_game_cpu": 25.477207853999992,
+      "total_agent_cpu": 474.788776099,
+      "wilson95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "failures": {
+        "invalid": 0,
+        "timeout": 0,
+        "crash": 0
+      },
+      "meets_18_of_20": true,
+      "proxy_rubric_points": 25
+    },
+    {
+      "opponent": "aggressive-proxy",
+      "games": 20,
+      "wins": 20,
+      "by_color": {
+        "1": {
+          "games": 10,
+          "wins": 10
+        },
+        "2": {
+          "games": 10,
+          "wins": 10
+        }
+      },
+      "mean_cpu": 1.9760250320208335,
+      "max_cpu": 3.159800936000008,
+      "max_wall": 3.9598626410006545,
+      "max_game_cpu": 25.866032088999994,
+      "total_agent_cpu": 474.2460076850001,
+      "wilson95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "failures": {
+        "invalid": 0,
+        "timeout": 0,
+        "crash": 0
+      },
+      "meets_18_of_20": true,
+      "proxy_rubric_points": 25
+    },
+    {
+      "opponent": "alphabeta-proxy",
+      "games": 20,
+      "wins": 20,
+      "by_color": {
+        "1": {
+          "games": 10,
+          "wins": 10
+        },
+        "2": {
+          "games": 10,
+          "wins": 10
+        }
+      },
+      "mean_cpu": 1.9279884322208332,
+      "max_cpu": 3.1794977360000045,
+      "max_wall": 3.8892376630101353,
+      "max_game_cpu": 25.975918588,
+      "total_agent_cpu": 462.71722373299997,
+      "wilson95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "failures": {
+        "invalid": 0,
+        "timeout": 0,
+        "crash": 0
+      },
+      "meets_18_of_20": true,
+      "proxy_rubric_points": 15
+    }
+  ],
+  "local_proxy_points": 90
+}

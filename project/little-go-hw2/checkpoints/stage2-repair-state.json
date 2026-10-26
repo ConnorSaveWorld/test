@@ -1,0 +1,73 @@
+{
+  "status": "handoff_ready",
+  "last_handled_submission": 12,
+  "last_submitted": "Oct-23-2026 3:06:51 pm PDT",
+  "last_report_executed": "2026-10-23T15:29:48-07:00",
+  "official_score": 6,
+  "qlearning": {
+    "black_wins": 5,
+    "white_wins": 5,
+    "win_rate": 1
+  },
+  "championship": {
+    "black_wins": 5,
+    "black_losses": 0,
+    "white_wins": 0,
+    "white_losses": 5,
+    "win_rate": 0.5
+  },
+  "submitted_source_sha256": "cefadb4f805e5d95e2f157a5b50619e476ed05dea47bef36e6ac1a0a56661698",
+  "delivered_sha256": "cefadb4f805e5d95e2f157a5b50619e476ed05dea47bef36e6ac1a0a56661698",
+  "latest_experimental_sha256": "cefadb4f805e5d95e2f157a5b50619e476ed05dea47bef36e6ac1a0a56661698",
+  "current_work": "User explicitly requests full handoff to a new conversation. All12 immutable snapshots downloaded; official9 source corrected to122a9c0b, best observed6.2. Official12 uses latestcefadb4f, score6 withWhiteChamp0/5.10/11 sourcecefadb4f but no report/history. New terminal diagnostics saved, not deployed. Stop repair and keep monitor paused. Read reports/handoff-20261025/01_完整交接报告.md.",
+  "expected_next_submission": 13,
+  "delivery_file": "C:\\Users\\paul2\\Downloads\\my_player3.py",
+  "validation_report": "reports/STAGE2-WHITE-FOLLOWUP13-READY-20261020.md",
+  "latest_local_experiment": {
+    "report": "reports/second-reply17-followup-paired-d4.json",
+    "complete": true,
+    "games_per_candidate": 32,
+    "candidate_white_wins": 32,
+    "candidate_white_losses": 0,
+    "reference_reply17_white_wins": 31,
+    "reference_reply17_white_losses": 1,
+    "candidate_vs_reply17_win_delta": 1,
+    "candidate_vs_reply17_margin_delta": 0.0,
+    "candidate_vs_prior_delivery_margin_delta": 17.0,
+    "candidate_vs_prior_delivery_white_win_delta": 0,
+    "invalid_timeout_crash": 0,
+    "focused_source_tests": "27/27 CPython3.7.5",
+    "fresh_filehost": "Black1/1 and White1/1 vs Random; all moves valid under course GO",
+    "max_agent_move_wall_seconds": 8.59,
+    "source_sha256": "cefadb4f805e5d95e2f157a5b50619e476ed05dea47bef36e6ac1a0a56661698",
+    "zip_sha256": "26d7fc73a315255f213c9bea1721700b3a8eb1921896d53d73112fd8d657d1e2",
+    "backup": "reports/delivery-backups/20261020-second-reply17-followup-prepromotion",
+    "delivery_changed": true
+  },
+  "last_browser_check": {
+    "checked_at_utc": "2026-10-26T01:36:42.213604Z",
+    "session": "logged in",
+    "submission_count": 12,
+    "official_score": 6,
+    "result": "Complete report12 and downloaded immutable source/history verified; source matches delivery cefadb4f."
+  },
+  "login_recovery_notified": false,
+  "automation_status": "PAUSED",
+  "updated_at": "2026-10-26T01:52:32.831552+00:00",
+  "previous_delivered_sha256": "122a9c0bc0e668687106cc1939aecb60cdf34851fb26b44669cf9fe891e1e24d",
+  "active_local_validation": null,
+  "pending_submission": null,
+  "unreviewed_submission_numbers": [],
+  "best_observed_official": {
+    "submission": 9,
+    "score": 6.2,
+    "source_sha256": "122a9c0bc0e668687106cc1939aecb60cdf34851fb26b44669cf9fe891e1e24d",
+    "note": "Sample only; not a stable superiority claim."
+  },
+  "submissions_without_reports": [
+    10,
+    11
+  ],
+  "provenance_correction": "Oct25 all-submission archive proves official9 source122a9c0b; old4edca990 attribution was wrong.",
+  "handoff_folder": "C:/Users/paul2/Downloads/little-go-hw2-handoff-20261025"
+}

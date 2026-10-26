@@ -1,0 +1,8 @@
+{
+  "source": "experiments/candidate_symmetry_tree.py",
+  "states": 1000,
+  "comparisons": 25000,
+  "mismatches": 0,
+  "seed": 5612026,
+  "note": "Internal optimized bitboard path versus independent matrix oracle and original official GO"
+}

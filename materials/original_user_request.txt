@@ -1,0 +1,150 @@
+You are an expert AI algorithms engineer specializing in adversarial search, game-playing agents, reinforcement learning, and performance optimization.
+
+I am working on USC CSCI 561 Fall 2026 Homework 2: Little-Go (5×5 Go).
+
+**Your objective is to help me develop, validate, and optimize an original AI agent that has the highest possible chance of achieving 100/100 under the assignment's grading rubric.**
+
+First, read the attached assignment PDF completely. Treat it as the authoritative specification. Do not assume standard Go rules apply where this assignment defines different rules.
+
+## 1. Understand the grading requirements
+
+The assignment has two stages:
+
+**Stage 1 — 90 points**
+- Random Player: 25 points
+- Greedy Player: 25 points
+- Aggressive Player: 25 points
+- Alpha-Beta Player: 15 points
+
+**Stage 2 — 10 points**
+- Q-Learning Player: 5 points
+- Championship Player: 5 points
+
+The target is at least a 90% win rate against EVERY opponent, playing both Black and White.
+
+Pay special attention to the grading thresholds. An 85% win rate may score substantially less than a 90% win rate.
+
+Do not claim any win rate without actual measured game results.
+
+## 2. Correctness comes first
+
+Carefully examine and test:
+
+- 5×5 board representation.
+- Legal move generation.
+- Group detection and liberties.
+- Capturing single and multiple connected groups.
+- Suicide prohibition and capture exceptions.
+- KO rule using previous and current board states.
+- PASS and consecutive-pass termination.
+- The 24-move maximum.
+- White Komi = 2.5.
+- Final scoring based ONLY on remaining stones, not surrounded empty territory.
+- Exact input.txt and output.txt formats.
+
+Invalid moves, incorrect output, and crashes must be treated as critical failures.
+
+## 3. Design a strong search-based baseline
+
+Evaluate an architecture using:
+
+- Minimax with Alpha-Beta pruning.
+- Iterative deepening.
+- Strong move ordering.
+- Transposition tables.
+- Efficient board representation.
+- Adaptive search depth.
+- A domain-specific evaluation function.
+- Terminal-state detection.
+- Tactical analysis of captures, liberties, threats, and group safety.
+
+Compare possible approaches before selecting the architecture.
+
+Explain how your evaluation function relates to the assignment's actual winning condition.
+
+Do not assume that deeper search is always better. Measure its cost and effectiveness.
+
+## 4. Investigate reinforcement learning for Stage 2
+
+The assignment encourages reinforcement learning.
+
+Evaluate whether a search-only agent, a reinforcement-learning agent, or a hybrid strategy performs better.
+
+Consider:
+
+- Self-play training.
+- Board symmetry reduction.
+- State-space efficiency.
+- Learning-based position evaluation.
+- Comparison against the search baseline.
+
+Training must run locally, not on Vocareum servers.
+
+Only use approaches supported by empirical testing.
+
+## 5. Strict runtime requirements
+
+The target environment uses Python 3.7.5.
+
+The required Python filename is my_player3.py.
+
+The maximum computation time per move is 10 seconds. Stage-level cumulative CPU limits also apply.
+
+Your design must prioritize reliable execution within these limits.
+
+Use only permitted source and helper file formats.
+
+Do not use external libraries implementing Minimax, Alpha-Beta, Q-Learning, or other prohibited search/learning algorithms.
+
+Do not copy existing student solutions or publicly available implementations.
+
+## 6. Establish an experimental evaluation process
+
+Develop a reproducible testing plan with:
+
+- Rule-based unit tests.
+- Tactical test positions.
+- Full-game simulations.
+- Testing as both Black and White.
+- Multiple random seeds.
+- Win rates by opponent.
+- Average and worst-case decision times.
+- Invalid-move and timeout counts.
+- Analysis of losing games.
+- Before/after comparisons of algorithm changes.
+
+Aim for at least 95% measured local win rates against accessible basic opponents as an engineering target, with at least 90% as the grading threshold.
+
+Never treat a local simulated opponent as equivalent to a hidden grading opponent.
+
+## 7. Optimize based on evidence
+
+For every proposed improvement:
+
+1. Identify the weakness being addressed.
+2. Explain the algorithmic change.
+3. Predict its effect.
+4. Measure performance before and after.
+5. Keep the improvement only if the results justify it.
+6. Check for regressions against other opponents.
+
+Prioritize correctness, consistency, win rate, and runtime safety over algorithmic complexity.
+
+Do not claim a guaranteed 100/100. The grading contains randomness and hidden opponents.
+
+## 8. Your deliverables
+
+Start by providing:
+
+1. A detailed requirements and grading audit.
+2. A recommended architecture for Stage 1 and Stage 2.
+3. A prioritized implementation and testing plan.
+4. Major risks that could prevent full marks.
+5. A benchmark methodology.
+6. An explicit explanation of how each optimization could improve the rubric score.
+
+Then review the implementation I provide, identify defects and performance bottlenecks, and help me implement and validate improvements consistent with the course's academic-integrity and AI-use rules.
+
+**Important: Do not rush into generating a complete solution before understanding the specification, provided starter code, and my existing implementation. Never fabricate tests, tournament outcomes, or performance measurements.**
+
+Our objective is to maximize verified grading performance, not merely to produce code that runs.

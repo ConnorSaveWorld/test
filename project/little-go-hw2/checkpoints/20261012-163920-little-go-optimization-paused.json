@@ -1,0 +1,103 @@
+{
+  "status": "paused",
+  "timestamp": "2026-10-12T16:39:20.885691-07:00",
+  "branch": "none (not a Git repository)",
+  "root": "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2",
+  "file": "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2\\checkpoints\\20261012-163920-little-go-optimization-paused.md",
+  "shared_file": "C:\\Users\\paul2\\.gstack\\projects\\little-go-hw2\\checkpoints\\20261012-163920-little-go-optimization-paused.md",
+  "archive": "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2\\backups\\20261012-163920-little-go-optimization-paused.zip",
+  "running_tests_stopped": true,
+  "code_sha256": {
+    "submission\\my_player3.py": "b5ec69b0c8cf0e016d5f7fb32486058be2c3b1534df9842badd46aa052b01d62",
+    "experiments\\baseline_player3.py": "b5ec69b0c8cf0e016d5f7fb32486058be2c3b1534df9842badd46aa052b01d62",
+    "experiments\\candidate_fast.py": "98f7ce51ad9a872b27542dce7d5148817f0b18525374dab6df89e184ca9bf540",
+    "experiments\\candidate_pvs.py": "dda83b2ac22036ea4bdc49418193aa38893fe4f1f6c64d06494e2a45156bff36"
+  },
+  "partial_progress": {
+    "stage1-pvs-dev-alphabeta-proxy-progress.json": {
+      "opponent": "alphabeta-proxy",
+      "completed": 13,
+      "planned": 20,
+      "wins": 13,
+      "wall_seconds": 333.86206824099645,
+      "by_color": {
+        "1": {
+          "games": 7,
+          "wins": 7
+        },
+        "2": {
+          "games": 6,
+          "wins": 6
+        }
+      }
+    },
+    "stage1-pvs-heldout-aggressive-proxy-progress.json": {
+      "opponent": "aggressive-proxy",
+      "completed": 9,
+      "planned": 20,
+      "wins": 9,
+      "wall_seconds": 233.17141954800172,
+      "by_color": {
+        "1": {
+          "games": 5,
+          "wins": 5
+        },
+        "2": {
+          "games": 4,
+          "wins": 4
+        }
+      }
+    },
+    "stage1-pvs-heldout-alphabeta-proxy-progress.json": {
+      "opponent": "alphabeta-proxy",
+      "completed": 13,
+      "planned": 20,
+      "wins": 13,
+      "wall_seconds": 330.93941439999617,
+      "by_color": {
+        "1": {
+          "games": 7,
+          "wins": 7
+        },
+        "2": {
+          "games": 6,
+          "wins": 6
+        }
+      }
+    },
+    "stage1-pvs-heldout-greedy-proxy-progress.json": {
+      "opponent": "greedy-proxy",
+      "completed": 9,
+      "planned": 20,
+      "wins": 9,
+      "wall_seconds": 234.19782248300908,
+      "by_color": {
+        "1": {
+          "games": 5,
+          "wins": 5
+        },
+        "2": {
+          "games": 4,
+          "wins": 4
+        }
+      }
+    },
+    "stage1-pvs-heldout-official-random-progress.json": {
+      "opponent": "official-random",
+      "completed": 9,
+      "planned": 20,
+      "wins": 8,
+      "wall_seconds": 233.3700748449919,
+      "by_color": {
+        "1": {
+          "games": 5,
+          "wins": 4
+        },
+        "2": {
+          "games": 4,
+          "wins": 4
+        }
+      }
+    }
+  }
+}

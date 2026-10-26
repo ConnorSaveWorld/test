@@ -1,0 +1,17 @@
+{
+  "opponent": "alphabeta-proxy",
+  "completed": 20,
+  "planned": 20,
+  "wins": 19,
+  "wall_seconds": 516.6093057809921,
+  "by_color": {
+    "1": {
+      "games": 10,
+      "wins": 10
+    },
+    "2": {
+      "games": 10,
+      "wins": 9
+    }
+  }
+}

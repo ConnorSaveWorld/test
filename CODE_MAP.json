@@ -1,0 +1,176 @@
+{
+  "file": "current_stage2/my_player3.py",
+  "sha256": "cefadb4f805e5d95e2f157a5b50619e476ed05dea47bef36e6ac1a0a56661698",
+  "functions": [
+    {
+      "name": "group",
+      "line": 21,
+      "end_line": 37
+    },
+    {
+      "name": "analyze",
+      "line": 41,
+      "end_line": 49
+    },
+    {
+      "name": "play_move",
+      "line": 52,
+      "end_line": 75
+    },
+    {
+      "name": "legal_moves",
+      "line": 78,
+      "end_line": 86
+    },
+    {
+      "name": "score_black",
+      "line": 89,
+      "end_line": 90
+    },
+    {
+      "name": "terminal_value",
+      "line": 93,
+      "end_line": 95
+    },
+    {
+      "name": "features",
+      "line": 98,
+      "end_line": 123
+    },
+    {
+      "name": "evaluate",
+      "line": 126,
+      "end_line": 130
+    },
+    {
+      "name": "ordered_moves",
+      "line": 133,
+      "end_line": 156
+    },
+    {
+      "name": "SearchTimeout",
+      "line": 159,
+      "end_line": 160
+    },
+    {
+      "name": "_tuple_search",
+      "line": 163,
+      "end_line": 248
+    },
+    {
+      "name": "read_input",
+      "line": 251,
+      "end_line": 260
+    },
+    {
+      "name": "write_output",
+      "line": 263,
+      "end_line": 268
+    },
+    {
+      "name": "load_history",
+      "line": 271,
+      "end_line": 296
+    },
+    {
+      "name": "turn_budget",
+      "line": 299,
+      "end_line": 309
+    },
+    {
+      "name": "main",
+      "line": 312,
+      "end_line": 340
+    },
+    {
+      "name": "_symmetry_map",
+      "line": 351,
+      "end_line": 360
+    },
+    {
+      "name": "_transform_bits",
+      "line": 367,
+      "end_line": 373
+    },
+    {
+      "name": "_root_symmetries",
+      "line": 376,
+      "end_line": 379
+    },
+    {
+      "name": "_root_representatives",
+      "line": 382,
+      "end_line": 395
+    },
+    {
+      "name": "_count",
+      "line": 398,
+      "end_line": 399
+    },
+    {
+      "name": "_adj",
+      "line": 402,
+      "end_line": 404
+    },
+    {
+      "name": "_pack",
+      "line": 407,
+      "end_line": 414
+    },
+    {
+      "name": "_unpack",
+      "line": 417,
+      "end_line": 419
+    },
+    {
+      "name": "_bit_groups",
+      "line": 423,
+      "end_line": 436
+    },
+    {
+      "name": "_bit_moves",
+      "line": 439,
+      "end_line": 444
+    },
+    {
+      "name": "_bit_candidates",
+      "line": 448,
+      "end_line": 485
+    },
+    {
+      "name": "_bit_score",
+      "line": 488,
+      "end_line": 489
+    },
+    {
+      "name": "_bit_terminal",
+      "line": 492,
+      "end_line": 494
+    },
+    {
+      "name": "_bit_static",
+      "line": 498,
+      "end_line": 514
+    },
+    {
+      "name": "_bit_evaluate",
+      "line": 517,
+      "end_line": 519
+    },
+    {
+      "name": "_bit_order",
+      "line": 522,
+      "end_line": 538
+    },
+    {
+      "name": "search",
+      "line": 541,
+      "end_line": 704
+    },
+    {
+      "name": "evaluate",
+      "line": 707,
+      "end_line": 708
+    }
+  ]
+}

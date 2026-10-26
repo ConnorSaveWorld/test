@@ -1,0 +1,34 @@
+[
+  {
+    "games": 32,
+    "actions": 761,
+    "wins": 15,
+    "source_sha256": "dda83b2ac22036ea4bdc49418193aa38893fe4f1f6c64d06494e2a45156bff36",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "reports/strong-screen-baseline.json"
+  },
+  {
+    "games": 32,
+    "actions": 768,
+    "wins": 16,
+    "source_sha256": "dda83b2ac22036ea4bdc49418193aa38893fe4f1f6c64d06494e2a45156bff36",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "reports/strong-screen-pressure.json"
+  },
+  {
+    "games": 32,
+    "actions": 767,
+    "wins": 20,
+    "source_sha256": "dda83b2ac22036ea4bdc49418193aa38893fe4f1f6c64d06494e2a45156bff36",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "reports/strong-screen-space.json"
+  },
+  {
+    "games": 32,
+    "actions": 768,
+    "wins": 13,
+    "source_sha256": "dda83b2ac22036ea4bdc49418193aa38893fe4f1f6c64d06494e2a45156bff36",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "reports/strong-screen-survival.json"
+  }
+]

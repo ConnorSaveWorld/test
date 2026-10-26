@@ -1,0 +1,583 @@
+{
+  "budget": 0.1,
+  "positions": 12,
+  "results": [
+    {
+      "position": 0,
+      "move_count": 1,
+      "table": false,
+      "ordering": false,
+      "point": 6,
+      "stats": {
+        "nodes": 5037,
+        "cache_hits": 0,
+        "completed_depth": 3,
+        "value": 20.45,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.0940000000409782
+      }
+    },
+    {
+      "position": 0,
+      "move_count": 1,
+      "table": false,
+      "ordering": true,
+      "point": 6,
+      "stats": {
+        "nodes": 4492,
+        "cache_hits": 0,
+        "completed_depth": 3,
+        "value": 20.45,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.125
+      }
+    },
+    {
+      "position": 0,
+      "move_count": 1,
+      "table": true,
+      "ordering": true,
+      "point": 6,
+      "stats": {
+        "nodes": 3590,
+        "cache_hits": 0,
+        "completed_depth": 3,
+        "value": 20.45,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.10999999998603016
+      }
+    },
+    {
+      "position": 1,
+      "move_count": 9,
+      "table": false,
+      "ordering": false,
+      "point": 13,
+      "stats": {
+        "nodes": 5822,
+        "cache_hits": 0,
+        "completed_depth": 3,
+        "value": 20.750000000000004,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.10899999999674037
+      }
+    },
+    {
+      "position": 1,
+      "move_count": 9,
+      "table": false,
+      "ordering": true,
+      "point": 13,
+      "stats": {
+        "nodes": 5025,
+        "cache_hits": 0,
+        "completed_depth": 4,
+        "value": 1.65,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.10899999999674037
+      }
+    },
+    {
+      "position": 1,
+      "move_count": 9,
+      "table": true,
+      "ordering": true,
+      "point": 13,
+      "stats": {
+        "nodes": 5059,
+        "cache_hits": 33,
+        "completed_depth": 4,
+        "value": 1.65,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.10999999998603016
+      }
+    },
+    {
+      "position": 2,
+      "move_count": 23,
+      "table": false,
+      "ordering": false,
+      "point": 0,
+      "stats": {
+        "nodes": 1,
+        "cache_hits": 0,
+        "completed_depth": 1,
+        "value": -10000.5,
+        "interrupted": false,
+        "cpu_seconds": 0.0,
+        "wall_seconds": 0.0
+      }
+    },
+    {
+      "position": 2,
+      "move_count": 23,
+      "table": false,
+      "ordering": true,
+      "point": 0,
+      "stats": {
+        "nodes": 1,
+        "cache_hits": 0,
+        "completed_depth": 1,
+        "value": -10000.5,
+        "interrupted": false,
+        "cpu_seconds": 0.0,
+        "wall_seconds": 0.0
+      }
+    },
+    {
+      "position": 2,
+      "move_count": 23,
+      "table": true,
+      "ordering": true,
+      "point": 0,
+      "stats": {
+        "nodes": 1,
+        "cache_hits": 0,
+        "completed_depth": 1,
+        "value": -10000.5,
+        "interrupted": false,
+        "cpu_seconds": 0.0,
+        "wall_seconds": 0.0
+      }
+    },
+    {
+      "position": 3,
+      "move_count": 0,
+      "table": false,
+      "ordering": false,
+      "point": 6,
+      "stats": {
+        "nodes": 6147,
+        "cache_hits": 0,
+        "completed_depth": 3,
+        "value": -7.8,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.10899999999674037
+      }
+    },
+    {
+      "position": 3,
+      "move_count": 0,
+      "table": false,
+      "ordering": true,
+      "point": 6,
+      "stats": {
+        "nodes": 4532,
+        "cache_hits": 0,
+        "completed_depth": 3,
+        "value": -7.8,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.10899999999674037
+      }
+    },
+    {
+      "position": 3,
+      "move_count": 0,
+      "table": true,
+      "ordering": true,
+      "point": 6,
+      "stats": {
+        "nodes": 4250,
+        "cache_hits": 0,
+        "completed_depth": 3,
+        "value": -7.8,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.11000000004423782
+      }
+    },
+    {
+      "position": 4,
+      "move_count": 8,
+      "table": false,
+      "ordering": false,
+      "point": 7,
+      "stats": {
+        "nodes": 4683,
+        "cache_hits": 0,
+        "completed_depth": 3,
+        "value": -10.65,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.10899999999674037
+      }
+    },
+    {
+      "position": 4,
+      "move_count": 8,
+      "table": false,
+      "ordering": true,
+      "point": 7,
+      "stats": {
+        "nodes": 4351,
+        "cache_hits": 0,
+        "completed_depth": 3,
+        "value": -10.65,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.10999999998603016
+      }
+    },
+    {
+      "position": 4,
+      "move_count": 8,
+      "table": true,
+      "ordering": true,
+      "point": 8,
+      "stats": {
+        "nodes": 4504,
+        "cache_hits": 7,
+        "completed_depth": 4,
+        "value": -23.049999999999997,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.10899999999674037
+      }
+    },
+    {
+      "position": 5,
+      "move_count": 22,
+      "table": false,
+      "ordering": false,
+      "point": 9,
+      "stats": {
+        "nodes": 14,
+        "cache_hits": 0,
+        "completed_depth": 2,
+        "value": -10001.5,
+        "interrupted": false,
+        "cpu_seconds": 0.0,
+        "wall_seconds": 0.0
+      }
+    },
+    {
+      "position": 5,
+      "move_count": 22,
+      "table": false,
+      "ordering": true,
+      "point": 9,
+      "stats": {
+        "nodes": 14,
+        "cache_hits": 0,
+        "completed_depth": 2,
+        "value": -10001.5,
+        "interrupted": false,
+        "cpu_seconds": 0.0,
+        "wall_seconds": 0.0
+      }
+    },
+    {
+      "position": 5,
+      "move_count": 22,
+      "table": true,
+      "ordering": true,
+      "point": 9,
+      "stats": {
+        "nodes": 14,
+        "cache_hits": 0,
+        "completed_depth": 2,
+        "value": -10001.5,
+        "interrupted": false,
+        "cpu_seconds": 0.0,
+        "wall_seconds": 0.0
+      }
+    },
+    {
+      "position": 6,
+      "move_count": 0,
+      "table": false,
+      "ordering": false,
+      "point": 6,
+      "stats": {
+        "nodes": 6381,
+        "cache_hits": 0,
+        "completed_depth": 3,
+        "value": -7.8,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.10899999999674037
+      }
+    },
+    {
+      "position": 6,
+      "move_count": 0,
+      "table": false,
+      "ordering": true,
+      "point": 6,
+      "stats": {
+        "nodes": 4340,
+        "cache_hits": 0,
+        "completed_depth": 3,
+        "value": -7.8,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.10999999998603016
+      }
+    },
+    {
+      "position": 6,
+      "move_count": 0,
+      "table": true,
+      "ordering": true,
+      "point": 6,
+      "stats": {
+        "nodes": 3905,
+        "cache_hits": 0,
+        "completed_depth": 3,
+        "value": -7.8,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.10899999999674037
+      }
+    },
+    {
+      "position": 7,
+      "move_count": 8,
+      "table": false,
+      "ordering": false,
+      "point": 7,
+      "stats": {
+        "nodes": 4964,
+        "cache_hits": 0,
+        "completed_depth": 3,
+        "value": -6.6,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.125
+      }
+    },
+    {
+      "position": 7,
+      "move_count": 8,
+      "table": false,
+      "ordering": true,
+      "point": 7,
+      "stats": {
+        "nodes": 3802,
+        "cache_hits": 0,
+        "completed_depth": 4,
+        "value": -17.45,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.10899999999674037
+      }
+    },
+    {
+      "position": 7,
+      "move_count": 8,
+      "table": true,
+      "ordering": true,
+      "point": 7,
+      "stats": {
+        "nodes": 4038,
+        "cache_hits": 7,
+        "completed_depth": 4,
+        "value": -17.45,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.11000000004423782
+      }
+    },
+    {
+      "position": 8,
+      "move_count": 22,
+      "table": false,
+      "ordering": false,
+      "point": 0,
+      "stats": {
+        "nodes": 8,
+        "cache_hits": 0,
+        "completed_depth": 2,
+        "value": -10000.5,
+        "interrupted": false,
+        "cpu_seconds": 0.0,
+        "wall_seconds": 0.0
+      }
+    },
+    {
+      "position": 8,
+      "move_count": 22,
+      "table": false,
+      "ordering": true,
+      "point": 2,
+      "stats": {
+        "nodes": 8,
+        "cache_hits": 0,
+        "completed_depth": 2,
+        "value": -10000.5,
+        "interrupted": false,
+        "cpu_seconds": 0.0,
+        "wall_seconds": 0.0
+      }
+    },
+    {
+      "position": 8,
+      "move_count": 22,
+      "table": true,
+      "ordering": true,
+      "point": 2,
+      "stats": {
+        "nodes": 8,
+        "cache_hits": 0,
+        "completed_depth": 2,
+        "value": -10000.5,
+        "interrupted": false,
+        "cpu_seconds": 0.0,
+        "wall_seconds": 0.0
+      }
+    },
+    {
+      "position": 9,
+      "move_count": 0,
+      "table": false,
+      "ordering": false,
+      "point": 6,
+      "stats": {
+        "nodes": 5715,
+        "cache_hits": 0,
+        "completed_depth": 3,
+        "value": -7.8,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.10899999999674037
+      }
+    },
+    {
+      "position": 9,
+      "move_count": 0,
+      "table": false,
+      "ordering": true,
+      "point": 6,
+      "stats": {
+        "nodes": 4436,
+        "cache_hits": 0,
+        "completed_depth": 3,
+        "value": -7.8,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.10999999998603016
+      }
+    },
+    {
+      "position": 9,
+      "move_count": 0,
+      "table": true,
+      "ordering": true,
+      "point": 6,
+      "stats": {
+        "nodes": 4443,
+        "cache_hits": 0,
+        "completed_depth": 3,
+        "value": -7.8,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.10899999999674037
+      }
+    },
+    {
+      "position": 10,
+      "move_count": 8,
+      "table": false,
+      "ordering": false,
+      "point": 7,
+      "stats": {
+        "nodes": 4640,
+        "cache_hits": 0,
+        "completed_depth": 3,
+        "value": -6.6,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.10899999999674037
+      }
+    },
+    {
+      "position": 10,
+      "move_count": 8,
+      "table": false,
+      "ordering": true,
+      "point": 7,
+      "stats": {
+        "nodes": 3056,
+        "cache_hits": 0,
+        "completed_depth": 4,
+        "value": -17.45,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.125
+      }
+    },
+    {
+      "position": 10,
+      "move_count": 8,
+      "table": true,
+      "ordering": true,
+      "point": 7,
+      "stats": {
+        "nodes": 4322,
+        "cache_hits": 7,
+        "completed_depth": 4,
+        "value": -17.45,
+        "interrupted": true,
+        "cpu_seconds": 0.109375,
+        "wall_seconds": 0.10999999998603016
+      }
+    },
+    {
+      "position": 11,
+      "move_count": 22,
+      "table": false,
+      "ordering": false,
+      "point": 0,
+      "stats": {
+        "nodes": 8,
+        "cache_hits": 0,
+        "completed_depth": 2,
+        "value": -10000.5,
+        "interrupted": false,
+        "cpu_seconds": 0.0,
+        "wall_seconds": 0.0
+      }
+    },
+    {
+      "position": 11,
+      "move_count": 22,
+      "table": false,
+      "ordering": true,
+      "point": 2,
+      "stats": {
+        "nodes": 8,
+        "cache_hits": 0,
+        "completed_depth": 2,
+        "value": -10000.5,
+        "interrupted": false,
+        "cpu_seconds": 0.0,
+        "wall_seconds": 0.0
+      }
+    },
+    {
+      "position": 11,
+      "move_count": 22,
+      "table": true,
+      "ordering": true,
+      "point": 2,
+      "stats": {
+        "nodes": 8,
+        "cache_hits": 0,
+        "completed_depth": 2,
+        "value": -10000.5,
+        "interrupted": false,
+        "cpu_seconds": 0.0,
+        "wall_seconds": 0.0
+      }
+    }
+  ],
+  "note": "Recorded losing positions, one timing sample/config; diagnostic, not a tournament improvement claim."
+}

@@ -1,0 +1,66 @@
+{
+  "search": {
+    "wins": 18,
+    "games": 40,
+    "win_rate": 0.45,
+    "by_color": {
+      "1": {
+        "games": 20,
+        "wins": 9
+      },
+      "2": {
+        "games": 20,
+        "wins": 9
+      }
+    },
+    "failures": {
+      "invalid": 0,
+      "timeout": 0,
+      "crash": 0
+    },
+    "mean_cpu": 0.026595052083333334
+  },
+  "learned-policy": {
+    "wins": 0,
+    "games": 40,
+    "win_rate": 0.0,
+    "by_color": {
+      "1": {
+        "games": 20,
+        "wins": 0
+      },
+      "2": {
+        "games": 20,
+        "wins": 0
+      }
+    },
+    "failures": {
+      "invalid": 0,
+      "timeout": 0,
+      "crash": 0
+    },
+    "mean_cpu": 0.0006510416666666666
+  },
+  "hybrid": {
+    "wins": 1,
+    "games": 40,
+    "win_rate": 0.025,
+    "by_color": {
+      "1": {
+        "games": 20,
+        "wins": 1
+      },
+      "2": {
+        "games": 20,
+        "wins": 0
+      }
+    },
+    "failures": {
+      "invalid": 0,
+      "timeout": 0,
+      "crash": 0
+    },
+    "mean_cpu": 0.027498695198329853
+  },
+  "deployment": "search-only; local experiment does not establish advanced-grader improvement"
+}

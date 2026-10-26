@@ -1,0 +1,194 @@
+--- submission6
++++ submission7
+@@ -283,10 +283,13 @@
+         count = data.get('move_count')
+         cpu = data.get('cpu_used')
+         if (data.get('color') != color or data.get('after') != list(previous)
+-                or type(count) is not int or not 0 <= count <= 21
+-                or count % 2 != color - 1
+                 or type(cpu) not in (int, float) or not 0 <= cpu <= 90
+                 or not math.isfinite(cpu)):
++            return unknown
++        if count is None:
++            return {'move_count': None, 'cpu_used': float(cpu)}
++        if (type(count) is not int or not 0 <= count <= 21
++                or count % 2 != color - 1):
+             return unknown
+         return {'move_count': count + 2, 'cpu_used': float(cpu)}
+     except (OSError, ValueError, TypeError):
+@@ -311,7 +314,7 @@
+     color, previous, board = read_input()
+     history = load_history(color, previous, board)
+     count = history['move_count']
+-    # Leave 8 seconds below the 90-second game allowance for host accounting.
++    # Keep game CPU targets below the stage's 90-second per-game average.
+     budget = turn_budget(history['cpu_used'], count, color)
+     # Development override can reduce time, but cannot increase deployment caps.
+     try:
+@@ -343,6 +346,53 @@
+ LEFT_EDGE = sum(1 << p for p in range(0, 25, 5))
+ RIGHT_EDGE = LEFT_EDGE << 4
+ ADJ_BITS = tuple(sum(1 << q for q in NEIGHBORS[p]) for p in range(25))
++
++
++def _symmetry_map(turns, reflected):
++    points = []
++    for point in range(25):
++        row, column = divmod(point, 5)
++        if reflected:
++            column = 4 - column
++        for _ in range(turns):
++            row, column = column, 4 - row
++        points.append(5 * row + column)
++    return tuple(points)
++
++
++_SYMMETRY_MAPS = tuple(_symmetry_map(turns, reflected)
++                       for reflected in (False, True) for turns in range(4))
++
++
++def _transform_bits(bits, mapping):
++    transformed = 0
++    while bits:
++        bit = bits & -bits
++        bits ^= bit
++        transformed |= 1 << mapping[bit.bit_length() - 1]
++    return transformed
++
++
++def _root_symmetries(previous_black, previous_white, black, white):
++    boards = (black, white, previous_black, previous_white)
++    return tuple(mapping for mapping in _SYMMETRY_MAPS
++                 if all(_transform_bits(bits, mapping) == bits for bits in boards))
++
++
++def _root_representatives(actions, symmetries):
++    if len(symmetries) == 1:
++        return actions
++    representatives = []
++    covered = 0
++    for action in actions:
++        point = action[0]
++        if point == PASS:
++            representatives.append(action)
++        elif not covered & (1 << point):
++            representatives.append(action)
++            for mapping in symmetries:
++                covered |= 1 << mapping[point]
++    return representatives
+ 
+ 
+ def _count(bits):
+@@ -490,10 +540,13 @@
+ 
+ def search(previous, board, color, move_count, last_pass, cpu_seconds=3.0,
+            wall_seconds=4.0, max_depth=None, use_table=True, use_ordering=True,
+-           max_nodes=None, evaluator=None, use_pvs=True):
++           max_nodes=None, evaluator=None, use_pvs=True, use_symmetry=None):
+     if evaluator is not None:
+         return _tuple_search(previous, board, color, move_count, last_pass,
+             cpu_seconds, wall_seconds, max_depth, use_table, use_ordering, max_nodes, evaluator)
++    if use_symmetry is None:
++        # Keep the proven Black search allocation; optimize White's search tree.
++        use_symmetry = color == 2
+     started_cpu = time.process_time()
+     started_wall = time.monotonic()
+     cpu_deadline = started_cpu + max(0.0, cpu_seconds)
+@@ -503,9 +556,33 @@
+              'pvs': use_pvs}
+     pb, pw = _pack(previous)
+     black, white = _pack(board)
++    # Original offline self-play policy for the observed early center squeeze.
++    # Match both boards and the known turn, including all eight orientations.
++    # Fixed-depth solver calls retain their requested minimax semantics.
++    if color == 2 and move_count == 3 and max_depth is None and not last_pass:
++        for mapping in _SYMMETRY_MAPS:
++            center, own, approach = (1 << mapping[p] for p in (12, 6, 7))
++            if (pb == center and pw == own and black == (center | approach)
++                    and white == own):
++                opening_action = mapping[18]
++                if any(point == opening_action for point, _, _ in
++                       _bit_moves(pb, pw, black, white, color)):
++                    stats.update(opening_policy=True,
++                                 opening_origin='local-selfplay-second-white-v1',
++                                 cpu_seconds=time.process_time() - started_cpu,
++                                 wall_seconds=time.monotonic() - started_wall)
++                    return opening_action, stats
+     table = {}
+-    best_action = _bit_order(pb, pw, black, white, color,
+-                             passed=last_pass, ordering=use_ordering)[0][0]
++    root_actions = _bit_order(pb, pw, black, white, color,
++                              passed=last_pass, ordering=use_ordering)
++    symmetries = (_root_symmetries(pb, pw, black, white) if use_symmetry
++                  else (_SYMMETRY_MAPS[0],))
++    representatives = _root_representatives(root_actions, symmetries)
++    stats['root_actions'] = len(root_actions)
++    stats['root_orbits'] = len(representatives)
++    stats['root_symmetries'] = len(symmetries)
++    stats['symmetry_pruned_actions'] = 0
++    best_action = representatives[0][0]
+ 
+     def check(force=False):
+         if max_nodes is not None and stats['nodes'] >= max_nodes:
+@@ -514,7 +591,8 @@
+             if time.process_time() >= cpu_deadline or time.monotonic() >= wall_deadline:
+                 raise SearchTimeout()
+ 
+-    def value(old_b, old_w, b, w, side, count, passed, depth, alpha, beta):
++    def value(old_b, old_w, b, w, side, count, passed, depth, alpha, beta,
++              active_symmetries=None):
+         stats['nodes'] += 1
+         check()
+         if count is not None and count >= 24:
+@@ -536,6 +614,10 @@
+             if alpha >= beta:
+                 return entry[1], entry[3]
+         actions = _bit_order(old_b, old_w, b, w, side, preferred, passed, use_ordering)
++        if active_symmetries is not None:
++            action_count = len(actions)
++            actions = _root_representatives(actions, active_symmetries)
++            stats['symmetry_pruned_actions'] += action_count - len(actions)
+         best, point = -float('inf'), actions[0][0]
+         next_count = None if count is None else count + 1
+         for index, (p, nb, nw) in enumerate(actions):
+@@ -543,15 +625,27 @@
+                     (next_count is not None and next_count >= 24)):
+                 candidate = _bit_terminal(nb, nw, side)
+             else:
++                child_symmetries = None
++                if active_symmetries is not None:
++                    if p == PASS:
++                        child_symmetries = active_symmetries
++                    else:
++                        subgroup = tuple(mapping for mapping in active_symmetries
++                                         if mapping[p] == p)
++                        if len(subgroup) > 1:
++                            child_symmetries = subgroup
+                 if use_pvs and index > 0 and alpha != -float('inf'):
+                     child, _ = value(b, w, nb, nw, 3 - side, next_count,
+-                                     p == PASS, depth - 1, -alpha - 0.01, -alpha)
++                                     p == PASS, depth - 1, -alpha - 0.01, -alpha,
++                                     child_symmetries)
+                     if alpha < -child < beta:
+                         child, _ = value(b, w, nb, nw, 3 - side, next_count,
+-                                         p == PASS, depth - 1, -beta, -alpha)
++                                         p == PASS, depth - 1, -beta, -alpha,
++                                         child_symmetries)
+                 else:
+                     child, _ = value(b, w, nb, nw, 3 - side, next_count,
+-                                     p == PASS, depth - 1, -beta, -alpha)
++                                     p == PASS, depth - 1, -beta, -alpha,
++                                     child_symmetries)
+                 candidate = -child
+             if candidate > best:
+                 best, point = candidate, p
+@@ -571,7 +665,8 @@
+         try:
+             check(force=True)
+             result, action = value(pb, pw, black, white, color, move_count,
+-                                   last_pass, depth, -float('inf'), float('inf'))
++                                   last_pass, depth, -float('inf'), float('inf'),
++                                   symmetries if len(symmetries) > 1 else None)
+             check(force=True)
+         except SearchTimeout:
+             stats['interrupted'] = True

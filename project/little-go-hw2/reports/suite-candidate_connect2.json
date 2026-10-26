@@ -1,0 +1,10 @@
+{
+  "source": "experiments/candidate_connect2.py",
+  "source_sha256": "4a219c507c529f466235eeebeded1467fdb4323496963068fceef370b264eb9f",
+  "python": "3.7.5 (default, Oct 12 2026, 15:17:15) \n[GCC 13.3.0]",
+  "tests_run": 27,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "scope": "Actual selected source: complete rule, protocol and search suites. Historical candidate-comparison tests remain separate."
+}

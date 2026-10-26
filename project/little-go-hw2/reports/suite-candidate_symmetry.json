@@ -1,0 +1,10 @@
+{
+  "source": "experiments/candidate_symmetry.py",
+  "source_sha256": "67583648fcf90bd39848f21e285184ddd6045aee98da188bb506309767fd9814",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "tests_run": 27,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "scope": "Actual selected source: complete rule, protocol and search suites. Historical candidate-comparison tests remain separate."
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "games": 64,
+    "actions": 1536,
+    "wins": 33,
+    "source_sha256": "dda83b2ac22036ea4bdc49418193aa38893fe4f1f6c64d06494e2a45156bff36",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "reports/strong-verify-baseline-baseline.json"
+  },
+  {
+    "games": 64,
+    "actions": 1530,
+    "wins": 41,
+    "source_sha256": "4a219c507c529f466235eeebeded1467fdb4323496963068fceef370b264eb9f",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "reports/strong-verify-connect2-baseline.json"
+  },
+  {
+    "games": 64,
+    "actions": 1533,
+    "wins": 42,
+    "source_sha256": "4a219c507c529f466235eeebeded1467fdb4323496963068fceef370b264eb9f",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "reports/strong-final-connect2-baseline.json"
+  }
+]

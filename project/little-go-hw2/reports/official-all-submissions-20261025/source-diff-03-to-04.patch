@@ -1,0 +1,24 @@
+--- submission3
++++ submission4
+@@ -447,9 +447,10 @@
+     empty = FULL & ~(black | white)
+     ba, wa = _adj(black), _adj(white)
+     influence = _count(ba & empty & ~wa) - _count(wa & empty & ~ba)
++    group_balance=sum(1 if side==1 else -1 for side,_,_ in _bit_groups(black,white))
+     # The same weights in exact integer twentieths avoid false floating ties.
+     return (160 * (_count(black) - _count(white)) - 400 + 12 * liberties
+-            - 120 * atari - 24 * weak + 9 * influence) / 20.0
++            - 120 * atari - 24 * weak + 9 * influence - 40 * group_balance) / 20.0
+ 
+ 
+ def _bit_evaluate(black, white, color):
+@@ -573,5 +574,9 @@
+     return best_action, stats
+ 
+ 
++def evaluate(board,color):
++    return _bit_evaluate(*_pack(board),color)
++
++
+ if __name__ == '__main__':
+     main()

@@ -1,0 +1,1 @@
+Original project mirror sources/ is read-only. Do not edit, rename, move or delete synced source files. The Little-Go artifact directory is not a Git repository. The WSL multi-agent-orchestrator repository is unrelated.

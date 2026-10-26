@@ -1,0 +1,66 @@
+[
+  {
+    "games": 24,
+    "actions": 576,
+    "wins": 24,
+    "source_sha256": "474ba45199264e1bb7d7089187c4bdd88ca08c81e1945cf959a9b3e09e120506",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-symmetry-tree-develop-white.json"
+  },
+  {
+    "games": 24,
+    "actions": 575,
+    "wins": 23,
+    "source_sha256": "474ba45199264e1bb7d7089187c4bdd88ca08c81e1945cf959a9b3e09e120506",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-symmetry-tree-heldout-white.json"
+  },
+  {
+    "games": 24,
+    "actions": 576,
+    "wins": 20,
+    "source_sha256": "474ba45199264e1bb7d7089187c4bdd88ca08c81e1945cf959a9b3e09e120506",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-symmetry-tree-stress-white.json"
+  },
+  {
+    "games": 24,
+    "actions": 576,
+    "wins": 24,
+    "source_sha256": "c8cb449260e7b440000a94593adef5c21d6e5529a01f88251ae982fff6a58894",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-white-scoped-develop-white.json"
+  },
+  {
+    "games": 24,
+    "actions": 576,
+    "wins": 15,
+    "source_sha256": "c8cb449260e7b440000a94593adef5c21d6e5529a01f88251ae982fff6a58894",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-white-scoped-heldout-black.json"
+  },
+  {
+    "games": 10,
+    "actions": 240,
+    "wins": 2,
+    "source_sha256": "c8cb449260e7b440000a94593adef5c21d6e5529a01f88251ae982fff6a58894",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-white-center-reply-diagnostic.json"
+  },
+  {
+    "games": 2,
+    "actions": 48,
+    "wins": 1,
+    "source_sha256": "c8cb449260e7b440000a94593adef5c21d6e5529a01f88251ae982fff6a58894",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-white-center-production-budget-recheck.json"
+  },
+  {
+    "games": 24,
+    "actions": 576,
+    "wins": 22,
+    "source_sha256": "474ba45199264e1bb7d7089187c4bdd88ca08c81e1945cf959a9b3e09e120506",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "stage2-white-strong-rehearsal.json"
+  }
+]

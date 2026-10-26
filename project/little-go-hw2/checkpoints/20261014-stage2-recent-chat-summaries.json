@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "read_thread received invalid arguments: turnLimit: Too big: expected number to be <=10."
+    }
+  ],
+  "isError": true
+}

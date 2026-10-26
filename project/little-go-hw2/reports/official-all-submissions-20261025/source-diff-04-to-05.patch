@@ -1,0 +1,36 @@
+--- submission4
++++ submission5
+@@ -293,15 +293,20 @@
+         return unknown
+ 
+ 
++def turn_budget(cpu_used, move_count):
++    """Allocate most of the official per-game CPU allowance safely."""
++    remaining = max(0.0, 82.0 - cpu_used)
++    turns_left = max(1, (25 - move_count) // 2) if move_count is not None else 12
++    return min(7.0, remaining / turns_left)
++
++
+ def main():
+     process_started = time.process_time()
+     color, previous, board = read_input()
+     history = load_history(color, previous, board)
+     count = history['move_count']
+-    # Keep several seconds for rules, output, and timing uncertainty per game.
+-    remaining = max(0.0, 65.0 - history['cpu_used'])
+-    turns_left = max(1, (25 - count) // 2) if count is not None else 12
+-    budget = min(3.0, remaining / turns_left)
++    # Leave 8 seconds below the 90-second game allowance for host accounting.
++    budget = turn_budget(history['cpu_used'], count)
+     # Development override can reduce time, but cannot increase deployment caps.
+     try:
+         override = float(os.environ.get('LITTLE_GO_CPU_SECONDS', budget))
+@@ -311,7 +316,7 @@
+         pass
+     last_pass = previous == board and (board != EMPTY or color == 2)
+     action, stats = search(previous, board, color, count, last_pass,
+-                           cpu_seconds=budget, wall_seconds=min(5.0, budget + 1.0))
++                           cpu_seconds=budget, wall_seconds=min(9.0, budget + 2.0))
+     write_output(action)
+     after = play_move(previous, board, color, action)
+     record = {'version': 1, 'color': color, 'move_count': count,

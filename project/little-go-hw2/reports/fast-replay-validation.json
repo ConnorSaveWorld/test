@@ -1,0 +1,10 @@
+[
+  {
+    "games": 20,
+    "actions": 480,
+    "wins": 19,
+    "source_sha256": "98f7ce51ad9a872b27542dce7d5148817f0b18525374dab6df89e184ca9bf540",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "reports/stage1-fast-dev-alphabeta-proxy.json"
+  }
+]

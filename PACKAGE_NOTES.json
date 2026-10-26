@@ -1,0 +1,12 @@
+{
+  "excluded": [
+    ".git",
+    ".runtime",
+    "__pycache__"
+  ],
+  "reason": "Interpreter build output/cache are not agent implementations; all project source/tests/tools/reports retained.",
+  "missing_original_material_paths": [],
+  "redacted_browser_token_files": [],
+  "not_a_submission_zip": true,
+  "official_opponent_implementations_available": false
+}

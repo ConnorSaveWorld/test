@@ -1,0 +1,10 @@
+{
+  "source": "stage2_candidate/my_player3.py",
+  "source_sha256": "604ea3ee7228a790cbcef60c2a8a6dfac043acb83d4a72ce30c2568466bd1dcb",
+  "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]",
+  "tests_run": 27,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "scope": "Actual selected source: complete rule, protocol and search suites. Historical candidate-comparison tests remain separate."
+}

@@ -1,0 +1,23 @@
+         6293886 function calls (6267622 primitive calls) in 2.003 seconds
+
+   Ordered by: cumulative time
+   List reduced from 30 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    2.003    2.003 C:\Users\paul2\.codex\.chatgpt-projects\g-p-68dc33922ddc819197d2694abbc00426\little-go-hw2\submission\my_player3.py:163(search)
+  26271/7    0.060    0.000    2.003    0.286 C:\Users\paul2\.codex\.chatgpt-projects\g-p-68dc33922ddc819197d2694abbc00426\little-go-hw2\submission\my_player3.py:184(value)
+     8131    0.019    0.000    1.318    0.000 C:\Users\paul2\.codex\.chatgpt-projects\g-p-68dc33922ddc819197d2694abbc00426\little-go-hw2\submission\my_player3.py:133(ordered_moves)
+   222553    0.763    0.000    1.091    0.000 C:\Users\paul2\.codex\.chatgpt-projects\g-p-68dc33922ddc819197d2694abbc00426\little-go-hw2\submission\my_player3.py:21(group)
+     8131    0.040    0.000    0.720    0.000 C:\Users\paul2\.codex\.chatgpt-projects\g-p-68dc33922ddc819197d2694abbc00426\little-go-hw2\submission\my_player3.py:78(legal_moves)
+    64886    0.100    0.000    0.672    0.000 C:\Users\paul2\.codex\.chatgpt-projects\g-p-68dc33922ddc819197d2694abbc00426\little-go-hw2\submission\my_player3.py:52(play_move)
+    16835    0.009    0.000    0.572    0.000 C:\Users\paul2\.codex\.chatgpt-projects\g-p-68dc33922ddc819197d2694abbc00426\little-go-hw2\submission\my_player3.py:126(evaluate)
+    16835    0.138    0.000    0.563    0.000 C:\Users\paul2\.codex\.chatgpt-projects\g-p-68dc33922ddc819197d2694abbc00426\little-go-hw2\submission\my_player3.py:98(features)
+     8131    0.029    0.000    0.516    0.000 {method 'sort' of 'list' objects}
+    68806    0.092    0.000    0.487    0.000 C:\Users\paul2\.codex\.chatgpt-projects\g-p-68dc33922ddc819197d2694abbc00426\little-go-hw2\submission\my_player3.py:141(priority)
+     9798    0.042    0.000    0.257    0.000 C:\Users\paul2\.codex\.chatgpt-projects\g-p-68dc33922ddc819197d2694abbc00426\little-go-hw2\submission\my_player3.py:40(analyze)
+   299585    0.135    0.000    0.216    0.000 {built-in method builtins.sum}
+  1626507    0.144    0.000    0.144    0.000 {method 'add' of 'set' objects}
+  1073274    0.104    0.000    0.104    0.000 {method 'pop' of 'list' objects}
+   965847    0.093    0.000    0.093    0.000 {method 'append' of 'list' objects}
+
+

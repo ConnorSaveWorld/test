@@ -1,0 +1,17 @@
+{
+  "opponent": "greedy-proxy",
+  "completed": 9,
+  "planned": 20,
+  "wins": 9,
+  "wall_seconds": 234.19782248300908,
+  "by_color": {
+    "1": {
+      "games": 5,
+      "wins": 5
+    },
+    "2": {
+      "games": 4,
+      "wins": 4
+    }
+  }
+}

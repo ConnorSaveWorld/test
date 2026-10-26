@@ -1,0 +1,48 @@
+[
+  {
+    "round": 1,
+    "count": 9,
+    "recorded": 22,
+    "proof": {
+      "complete": false,
+      "nodes": 2458112,
+      "cache_size": 1571631,
+      "cpu": 45.003886883
+    }
+  },
+  {
+    "round": 3,
+    "count": 9,
+    "recorded": 3,
+    "proof": {
+      "complete": false,
+      "nodes": 2351872,
+      "cache_size": 1511903,
+      "cpu": 45.00117486599999
+    }
+  },
+  {
+    "round": 5,
+    "count": 9,
+    "recorded": 14,
+    "proof": {
+      "complete": true,
+      "can_force_win": false,
+      "point": 19,
+      "nodes": 2438462,
+      "cache_size": 1546123,
+      "cpu": 43.84899135900001
+    }
+  },
+  {
+    "round": 9,
+    "count": 9,
+    "recorded": 21,
+    "proof": {
+      "complete": false,
+      "nodes": 2337664,
+      "cache_size": 1589650,
+      "cpu": 45.001519220000006
+    }
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "line": 0,
+    "liberty_cap": 6,
+    "count": 5,
+    "chosen": 8,
+    "stats": {
+      "nodes": 461188,
+      "cache_hits": 25865,
+      "completed_depth": 8,
+      "value": 2.9,
+      "interrupted": false,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "root_actions": 21,
+      "root_orbits": 21,
+      "root_symmetries": 1,
+      "symmetry_pruned_actions": 0,
+      "cpu_seconds": 5.75,
+      "wall_seconds": 5.89100000000326
+    }
+  },
+  {
+    "line": 0.75,
+    "liberty_cap": 6,
+    "count": 5,
+    "chosen": 10,
+    "stats": {
+      "nodes": 787854,
+      "cache_hits": 35365,
+      "completed_depth": 8,
+      "value": 2.9,
+      "interrupted": false,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "root_actions": 21,
+      "root_orbits": 21,
+      "root_symmetries": 1,
+      "symmetry_pruned_actions": 0,
+      "cpu_seconds": 8.25,
+      "wall_seconds": 8.48399999999674
+    }
+  },
+  {
+    "line": 1.5,
+    "liberty_cap": 6,
+    "count": 5,
+    "chosen": 10,
+    "stats": {
+      "nodes": 769084,
+      "cache_hits": 34184,
+      "completed_depth": 8,
+      "value": 2.5,
+      "interrupted": false,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "root_actions": 21,
+      "root_orbits": 21,
+      "root_symmetries": 1,
+      "symmetry_pruned_actions": 0,
+      "cpu_seconds": 7.921875,
+      "wall_seconds": 8.077999999979511
+    }
+  },
+  {
+    "line": 3,
+    "liberty_cap": 6,
+    "count": 5,
+    "chosen": 8,
+    "stats": {
+      "nodes": 464409,
+      "cache_hits": 35784,
+      "completed_depth": 8,
+      "value": 1.7,
+      "interrupted": false,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "root_actions": 21,
+      "root_orbits": 21,
+      "root_symmetries": 1,
+      "symmetry_pruned_actions": 0,
+      "cpu_seconds": 5.296875,
+      "wall_seconds": 5.389999999984866
+    }
+  }
+]

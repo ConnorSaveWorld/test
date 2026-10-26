@@ -1,0 +1,42 @@
+[
+  {
+    "games": 20,
+    "actions": 480,
+    "wins": 20,
+    "source_sha256": "dda83b2ac22036ea4bdc49418193aa38893fe4f1f6c64d06494e2a45156bff36",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "reports/stage1-pvs-resume-dev-alphabeta-proxy.json"
+  },
+  {
+    "games": 20,
+    "actions": 480,
+    "wins": 20,
+    "source_sha256": "dda83b2ac22036ea4bdc49418193aa38893fe4f1f6c64d06494e2a45156bff36",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "reports/stage1-pvs-resume-heldout-alphabeta-proxy.json"
+  },
+  {
+    "games": 20,
+    "actions": 480,
+    "wins": 19,
+    "source_sha256": "dda83b2ac22036ea4bdc49418193aa38893fe4f1f6c64d06494e2a45156bff36",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "reports/stage1-pvs-resume-heldout-official-random.json"
+  },
+  {
+    "games": 20,
+    "actions": 480,
+    "wins": 20,
+    "source_sha256": "dda83b2ac22036ea4bdc49418193aa38893fe4f1f6c64d06494e2a45156bff36",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "reports/stage1-pvs-resume-heldout-greedy-proxy.json"
+  },
+  {
+    "games": 20,
+    "actions": 480,
+    "wins": 20,
+    "source_sha256": "dda83b2ac22036ea4bdc49418193aa38893fe4f1f6c64d06494e2a45156bff36",
+    "validation": "Original GO legality, captures, terminal score, and full trace continuity",
+    "report": "reports/stage1-pvs-resume-heldout-aggressive-proxy.json"
+  }
+]

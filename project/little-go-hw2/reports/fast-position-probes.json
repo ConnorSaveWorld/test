@@ -1,0 +1,188 @@
+[
+  {
+    "seed": 561101,
+    "count": 5,
+    "engine": "baseline",
+    "point": 6,
+    "stats": {
+      "nodes": 75698,
+      "cache_hits": 1147,
+      "completed_depth": 6,
+      "value": 5.550000000000001,
+      "interrupted": true,
+      "cpu_seconds": 3.000089085,
+      "wall_seconds": 2.9774450109980535
+    }
+  },
+  {
+    "seed": 561101,
+    "count": 5,
+    "engine": "fast",
+    "point": 6,
+    "stats": {
+      "nodes": 142208,
+      "cache_hits": 3032,
+      "completed_depth": 6,
+      "value": 5.550000000000001,
+      "interrupted": true,
+      "engine": "bitboards",
+      "cpu_seconds": 3.002296472,
+      "wall_seconds": 3.006092191004427
+    }
+  },
+  {
+    "seed": 561101,
+    "count": 9,
+    "engine": "baseline",
+    "point": 10,
+    "stats": {
+      "nodes": 83049,
+      "cache_hits": 4173,
+      "completed_depth": 7,
+      "value": 15.799999999999999,
+      "interrupted": true,
+      "cpu_seconds": 3.000067938000001,
+      "wall_seconds": 2.951438735006377
+    }
+  },
+  {
+    "seed": 561101,
+    "count": 9,
+    "engine": "fast",
+    "point": 10,
+    "stats": {
+      "nodes": 170112,
+      "cache_hits": 15317,
+      "completed_depth": 8,
+      "value": -0.6499999999999999,
+      "interrupted": true,
+      "engine": "bitboards",
+      "cpu_seconds": 3.0018353940000004,
+      "wall_seconds": 2.7017016620084178
+    }
+  },
+  {
+    "seed": 561101,
+    "count": 13,
+    "engine": "baseline",
+    "point": 1,
+    "stats": {
+      "nodes": 85610,
+      "cache_hits": 6782,
+      "completed_depth": 7,
+      "value": 2.250000000000001,
+      "interrupted": true,
+      "cpu_seconds": 3.000032750000001,
+      "wall_seconds": 2.700044594996143
+    }
+  },
+  {
+    "seed": 561101,
+    "count": 13,
+    "engine": "fast",
+    "point": 18,
+    "stats": {
+      "nodes": 208512,
+      "cache_hits": 20768,
+      "completed_depth": 8,
+      "value": -27.35,
+      "interrupted": true,
+      "engine": "bitboards",
+      "cpu_seconds": 3.000238412,
+      "wall_seconds": 2.7003893600049196
+    }
+  },
+  {
+    "seed": 561109,
+    "count": 5,
+    "engine": "baseline",
+    "point": 8,
+    "stats": {
+      "nodes": 76049,
+      "cache_hits": 1494,
+      "completed_depth": 6,
+      "value": 5.550000000000001,
+      "interrupted": true,
+      "cpu_seconds": 3.0000643800000013,
+      "wall_seconds": 2.700076438006363
+    }
+  },
+  {
+    "seed": 561109,
+    "count": 5,
+    "engine": "fast",
+    "point": 8,
+    "stats": {
+      "nodes": 150400,
+      "cache_hits": 3670,
+      "completed_depth": 6,
+      "value": 5.550000000000001,
+      "interrupted": true,
+      "engine": "bitboards",
+      "cpu_seconds": 3.0028039480000004,
+      "wall_seconds": 2.7025284970004577
+    }
+  },
+  {
+    "seed": 561109,
+    "count": 9,
+    "engine": "baseline",
+    "point": 14,
+    "stats": {
+      "nodes": 76087,
+      "cache_hits": 2694,
+      "completed_depth": 6,
+      "value": -2.8999999999999995,
+      "interrupted": true,
+      "cpu_seconds": 3.000049467,
+      "wall_seconds": 2.736393068000325
+    }
+  },
+  {
+    "seed": 561109,
+    "count": 9,
+    "engine": "fast",
+    "point": 15,
+    "stats": {
+      "nodes": 177408,
+      "cache_hits": 8403,
+      "completed_depth": 7,
+      "value": 15.05,
+      "interrupted": true,
+      "engine": "bitboards",
+      "cpu_seconds": 3.000864658000001,
+      "wall_seconds": 2.837360555990017
+    }
+  },
+  {
+    "seed": 561109,
+    "count": 13,
+    "engine": "baseline",
+    "point": 16,
+    "stats": {
+      "nodes": 72854,
+      "cache_hits": 7016,
+      "completed_depth": 8,
+      "value": -36.4,
+      "interrupted": true,
+      "cpu_seconds": 3.000092156000001,
+      "wall_seconds": 2.8366686639928957
+    }
+  },
+  {
+    "seed": 561109,
+    "count": 13,
+    "engine": "fast",
+    "point": 10,
+    "stats": {
+      "nodes": 177280,
+      "cache_hits": 18639,
+      "completed_depth": 9,
+      "value": -26.150000000000002,
+      "interrupted": true,
+      "engine": "bitboards",
+      "cpu_seconds": 3.0028886909999954,
+      "wall_seconds": 2.8991626920033013
+    }
+  }
+]

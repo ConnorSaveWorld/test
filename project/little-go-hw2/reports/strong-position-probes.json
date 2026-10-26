@@ -1,0 +1,458 @@
+[
+  {
+    "seed": 310000,
+    "color": 2,
+    "count": 11,
+    "profile": "baseline",
+    "cpu_budget": 3,
+    "point": 11,
+    "stats": {
+      "nodes": 221568,
+      "cache_hits": 21436,
+      "completed_depth": 9,
+      "value": 24.7,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 3.000121511,
+      "wall_seconds": 2.8285099909990095
+    }
+  },
+  {
+    "seed": 310000,
+    "color": 2,
+    "count": 11,
+    "profile": "baseline",
+    "cpu_budget": 5,
+    "point": 11,
+    "stats": {
+      "nodes": 328576,
+      "cache_hits": 37701,
+      "completed_depth": 10,
+      "value": 9.9,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 5.000892442,
+      "wall_seconds": 4.715226091997465
+    }
+  },
+  {
+    "seed": 310000,
+    "color": 2,
+    "count": 11,
+    "profile": "space",
+    "cpu_budget": 3,
+    "point": 11,
+    "stats": {
+      "nodes": 194304,
+      "cache_hits": 18163,
+      "completed_depth": 9,
+      "value": 18.8,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 3.001581202999999,
+      "wall_seconds": 2.8331029359978857
+    }
+  },
+  {
+    "seed": 310000,
+    "color": 2,
+    "count": 11,
+    "profile": "space-noeyes",
+    "cpu_budget": 3,
+    "point": 11,
+    "stats": {
+      "nodes": 216320,
+      "cache_hits": 22437,
+      "completed_depth": 9,
+      "value": 20.0,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 3.000496160999999,
+      "wall_seconds": 2.832098726008553
+    }
+  },
+  {
+    "seed": 310000,
+    "color": 2,
+    "count": 13,
+    "profile": "baseline",
+    "cpu_budget": 3,
+    "point": 21,
+    "stats": {
+      "nodes": 213504,
+      "cache_hits": 21004,
+      "completed_depth": 9,
+      "value": -2.4,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 3.0014097040000003,
+      "wall_seconds": 2.8299662220088067
+    }
+  },
+  {
+    "seed": 310000,
+    "color": 2,
+    "count": 13,
+    "profile": "baseline",
+    "cpu_budget": 5,
+    "point": 24,
+    "stats": {
+      "nodes": 352384,
+      "cache_hits": 43169,
+      "completed_depth": 10,
+      "value": -46.5,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 5.00129012,
+      "wall_seconds": 4.6968446469982155
+    }
+  },
+  {
+    "seed": 310000,
+    "color": 2,
+    "count": 13,
+    "profile": "space",
+    "cpu_budget": 3,
+    "point": 21,
+    "stats": {
+      "nodes": 205824,
+      "cache_hits": 18390,
+      "completed_depth": 9,
+      "value": -12.2,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 3.0001808049999994,
+      "wall_seconds": 2.8155807250004727
+    }
+  },
+  {
+    "seed": 310000,
+    "color": 2,
+    "count": 13,
+    "profile": "space-noeyes",
+    "cpu_budget": 3,
+    "point": 21,
+    "stats": {
+      "nodes": 230144,
+      "cache_hits": 17691,
+      "completed_depth": 9,
+      "value": -12.2,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 3.000481823000001,
+      "wall_seconds": 2.7661707030056277
+    }
+  },
+  {
+    "seed": 310001,
+    "color": 1,
+    "count": 10,
+    "profile": "baseline",
+    "cpu_budget": 3,
+    "point": 17,
+    "stats": {
+      "nodes": 217472,
+      "cache_hits": 16764,
+      "completed_depth": 8,
+      "value": -14.75,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 3.001097624,
+      "wall_seconds": 2.766659223998431
+    }
+  },
+  {
+    "seed": 310001,
+    "color": 1,
+    "count": 10,
+    "profile": "baseline",
+    "cpu_budget": 5,
+    "point": 17,
+    "stats": {
+      "nodes": 351232,
+      "cache_hits": 29469,
+      "completed_depth": 9,
+      "value": 8.45,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 5.001193458000003,
+      "wall_seconds": 4.677109748998191
+    }
+  },
+  {
+    "seed": 310001,
+    "color": 1,
+    "count": 10,
+    "profile": "space",
+    "cpu_budget": 3,
+    "point": 17,
+    "stats": {
+      "nodes": 177536,
+      "cache_hits": 11739,
+      "completed_depth": 8,
+      "value": -8.4,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 3.000628094999996,
+      "wall_seconds": 2.829440062996582
+    }
+  },
+  {
+    "seed": 310001,
+    "color": 1,
+    "count": 10,
+    "profile": "space-noeyes",
+    "cpu_budget": 3,
+    "point": 17,
+    "stats": {
+      "nodes": 217472,
+      "cache_hits": 15399,
+      "completed_depth": 8,
+      "value": -7.8,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 3.0042096150000006,
+      "wall_seconds": 2.8328853259881726
+    }
+  },
+  {
+    "seed": 310001,
+    "color": 1,
+    "count": 12,
+    "profile": "baseline",
+    "cpu_budget": 3,
+    "point": 16,
+    "stats": {
+      "nodes": 249984,
+      "cache_hits": 34927,
+      "completed_depth": 10,
+      "value": -27.25,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 3.0003071929999976,
+      "wall_seconds": 2.828532373998314
+    }
+  },
+  {
+    "seed": 310001,
+    "color": 1,
+    "count": 12,
+    "profile": "baseline",
+    "cpu_budget": 5,
+    "point": 16,
+    "stats": {
+      "nodes": 371072,
+      "cache_hits": 60428,
+      "completed_depth": 11,
+      "value": 2.5,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 5.000570441000001,
+      "wall_seconds": 4.71429449300922
+    }
+  },
+  {
+    "seed": 310001,
+    "color": 1,
+    "count": 12,
+    "profile": "space",
+    "cpu_budget": 3,
+    "point": 16,
+    "stats": {
+      "nodes": 211584,
+      "cache_hits": 25903,
+      "completed_depth": 10,
+      "value": -25.6,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 3.0003912100000036,
+      "wall_seconds": 2.820623567007715
+    }
+  },
+  {
+    "seed": 310001,
+    "color": 1,
+    "count": 12,
+    "profile": "space-noeyes",
+    "cpu_budget": 3,
+    "point": 16,
+    "stats": {
+      "nodes": 251648,
+      "cache_hits": 39825,
+      "completed_depth": 10,
+      "value": -22.6,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 3.001521344000004,
+      "wall_seconds": 2.820158984992304
+    }
+  },
+  {
+    "seed": 310003,
+    "color": 1,
+    "count": 10,
+    "profile": "baseline",
+    "cpu_budget": 3,
+    "point": 10,
+    "stats": {
+      "nodes": 245504,
+      "cache_hits": 26369,
+      "completed_depth": 9,
+      "value": -21.05,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 3.0011230200000014,
+      "wall_seconds": 2.819078296000953
+    }
+  },
+  {
+    "seed": 310003,
+    "color": 1,
+    "count": 10,
+    "profile": "baseline",
+    "cpu_budget": 5,
+    "point": 10,
+    "stats": {
+      "nodes": 388992,
+      "cache_hits": 48123,
+      "completed_depth": 9,
+      "value": -21.05,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 5.004078148000005,
+      "wall_seconds": 4.598473980993731
+    }
+  },
+  {
+    "seed": 310003,
+    "color": 1,
+    "count": 10,
+    "profile": "space",
+    "cpu_budget": 3,
+    "point": 10,
+    "stats": {
+      "nodes": 198016,
+      "cache_hits": 18476,
+      "completed_depth": 8,
+      "value": -27.4,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 3.000767761000006,
+      "wall_seconds": 2.7641312689956976
+    }
+  },
+  {
+    "seed": 310003,
+    "color": 1,
+    "count": 10,
+    "profile": "space-noeyes",
+    "cpu_budget": 3,
+    "point": 9,
+    "stats": {
+      "nodes": 224512,
+      "cache_hits": 17333,
+      "completed_depth": 8,
+      "value": -26.2,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 3.00106206800001,
+      "wall_seconds": 2.8393922729883343
+    }
+  },
+  {
+    "seed": 310003,
+    "color": 1,
+    "count": 12,
+    "profile": "baseline",
+    "cpu_budget": 3,
+    "point": 10,
+    "stats": {
+      "nodes": 289920,
+      "cache_hits": 55318,
+      "completed_depth": 10,
+      "value": -46.65,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 3.0007021870000017,
+      "wall_seconds": 2.8354208009986905
+    }
+  },
+  {
+    "seed": 310003,
+    "color": 1,
+    "count": 12,
+    "profile": "baseline",
+    "cpu_budget": 5,
+    "point": 10,
+    "stats": {
+      "nodes": 436393,
+      "cache_hits": 109590,
+      "completed_depth": 12,
+      "value": -10005.5,
+      "interrupted": false,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 4.562053175000003,
+      "wall_seconds": 4.304992849996779
+    }
+  },
+  {
+    "seed": 310003,
+    "color": 1,
+    "count": 12,
+    "profile": "space",
+    "cpu_budget": 3,
+    "point": 1,
+    "stats": {
+      "nodes": 290048,
+      "cache_hits": 47998,
+      "completed_depth": 9,
+      "value": -28.2,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 3.000259100000008,
+      "wall_seconds": 2.8233608479931718
+    }
+  },
+  {
+    "seed": 310003,
+    "color": 1,
+    "count": 12,
+    "profile": "space-noeyes",
+    "cpu_budget": 3,
+    "point": 10,
+    "stats": {
+      "nodes": 282112,
+      "cache_hits": 34089,
+      "completed_depth": 9,
+      "value": -26.6,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "cpu_seconds": 3.0002082140000113,
+      "wall_seconds": 2.823438300009002
+    }
+  }
+]

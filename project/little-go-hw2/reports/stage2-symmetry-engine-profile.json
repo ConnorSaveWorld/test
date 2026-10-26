@@ -1,0 +1,274 @@
+{
+  "sources": {
+    "baseline": {
+      "path": "backups/stage2-submission6-604ea3ee.py",
+      "sha256": "604ea3ee7228a790cbcef60c2a8a6dfac043acb83d4a72ce30c2568466bd1dcb"
+    },
+    "candidate": {
+      "path": "experiments/candidate_symmetry_tree.py",
+      "sha256": "474ba45199264e1bb7d7089187c4bdd88ca08c81e1945cf959a9b3e09e120506"
+    }
+  },
+  "positions": [
+    {
+      "black_opening": null,
+      "color": 1,
+      "depth": 4,
+      "baseline": {
+        "action": 6,
+        "stats": {
+          "nodes": 3409,
+          "cache_hits": 2,
+          "completed_depth": 4,
+          "value": -20.1,
+          "interrupted": false,
+          "engine": "cached-bitboards",
+          "pvs": true,
+          "cpu_seconds": 0.03125,
+          "wall_seconds": 0.031000000002677552
+        }
+      },
+      "candidate": {
+        "action": 6,
+        "stats": {
+          "nodes": 966,
+          "cache_hits": 2,
+          "completed_depth": 4,
+          "value": -20.1,
+          "interrupted": false,
+          "engine": "cached-bitboards",
+          "pvs": true,
+          "root_actions": 26,
+          "root_orbits": 7,
+          "root_symmetries": 8,
+          "symmetry_pruned_actions": 640,
+          "cpu_seconds": 0.015625,
+          "wall_seconds": 0.015999999988707714
+        }
+      }
+    },
+    {
+      "black_opening": 0,
+      "color": 2,
+      "depth": 4,
+      "baseline": {
+        "action": 6,
+        "stats": {
+          "nodes": 2818,
+          "cache_hits": 3,
+          "completed_depth": 4,
+          "value": 14.8,
+          "interrupted": false,
+          "engine": "cached-bitboards",
+          "pvs": true,
+          "cpu_seconds": 0.015625,
+          "wall_seconds": 0.014999999999417923
+        }
+      },
+      "candidate": {
+        "action": 6,
+        "stats": {
+          "nodes": 1625,
+          "cache_hits": 3,
+          "completed_depth": 4,
+          "value": 14.8,
+          "interrupted": false,
+          "engine": "cached-bitboards",
+          "pvs": true,
+          "root_actions": 25,
+          "root_orbits": 15,
+          "root_symmetries": 2,
+          "symmetry_pruned_actions": 390,
+          "cpu_seconds": 0.015625,
+          "wall_seconds": 0.01600000000325963
+        }
+      }
+    },
+    {
+      "black_opening": 1,
+      "color": 2,
+      "depth": 4,
+      "baseline": {
+        "action": 6,
+        "stats": {
+          "nodes": 2836,
+          "cache_hits": 4,
+          "completed_depth": 4,
+          "value": 11.95,
+          "interrupted": false,
+          "engine": "cached-bitboards",
+          "pvs": true,
+          "cpu_seconds": 0.03125,
+          "wall_seconds": 0.031000000002677552
+        }
+      },
+      "candidate": {
+        "action": 6,
+        "stats": {
+          "nodes": 2836,
+          "cache_hits": 4,
+          "completed_depth": 4,
+          "value": 11.95,
+          "interrupted": false,
+          "engine": "cached-bitboards",
+          "pvs": true,
+          "root_actions": 25,
+          "root_orbits": 25,
+          "root_symmetries": 1,
+          "symmetry_pruned_actions": 0,
+          "cpu_seconds": 0.03125,
+          "wall_seconds": 0.031000000002677552
+        }
+      }
+    },
+    {
+      "black_opening": 2,
+      "color": 2,
+      "depth": 4,
+      "baseline": {
+        "action": 7,
+        "stats": {
+          "nodes": 2829,
+          "cache_hits": 1,
+          "completed_depth": 4,
+          "value": 11.9,
+          "interrupted": false,
+          "engine": "cached-bitboards",
+          "pvs": true,
+          "cpu_seconds": 0.015625,
+          "wall_seconds": 0.01600000000325963
+        }
+      },
+      "candidate": {
+        "action": 7,
+        "stats": {
+          "nodes": 1546,
+          "cache_hits": 1,
+          "completed_depth": 4,
+          "value": 11.9,
+          "interrupted": false,
+          "engine": "cached-bitboards",
+          "pvs": true,
+          "root_actions": 25,
+          "root_orbits": 15,
+          "root_symmetries": 2,
+          "symmetry_pruned_actions": 410,
+          "cpu_seconds": 0.015625,
+          "wall_seconds": 0.015999999988707714
+        }
+      }
+    },
+    {
+      "black_opening": 6,
+      "color": 2,
+      "depth": 4,
+      "baseline": {
+        "action": 18,
+        "stats": {
+          "nodes": 2849,
+          "cache_hits": 7,
+          "completed_depth": 4,
+          "value": 10.25,
+          "interrupted": false,
+          "engine": "cached-bitboards",
+          "pvs": true,
+          "cpu_seconds": 0.03125,
+          "wall_seconds": 0.031000000002677552
+        }
+      },
+      "candidate": {
+        "action": 18,
+        "stats": {
+          "nodes": 1705,
+          "cache_hits": 7,
+          "completed_depth": 4,
+          "value": 10.25,
+          "interrupted": false,
+          "engine": "cached-bitboards",
+          "pvs": true,
+          "root_actions": 25,
+          "root_orbits": 15,
+          "root_symmetries": 2,
+          "symmetry_pruned_actions": 330,
+          "cpu_seconds": 0.015625,
+          "wall_seconds": 0.01600000000325963
+        }
+      }
+    },
+    {
+      "black_opening": 7,
+      "color": 2,
+      "depth": 4,
+      "baseline": {
+        "action": 16,
+        "stats": {
+          "nodes": 3702,
+          "cache_hits": 37,
+          "completed_depth": 4,
+          "value": 9.9,
+          "interrupted": false,
+          "engine": "cached-bitboards",
+          "pvs": true,
+          "cpu_seconds": 0.03125,
+          "wall_seconds": 0.031000000002677552
+        }
+      },
+      "candidate": {
+        "action": 16,
+        "stats": {
+          "nodes": 2454,
+          "cache_hits": 37,
+          "completed_depth": 4,
+          "value": 9.9,
+          "interrupted": false,
+          "engine": "cached-bitboards",
+          "pvs": true,
+          "root_actions": 25,
+          "root_orbits": 15,
+          "root_symmetries": 2,
+          "symmetry_pruned_actions": 290,
+          "cpu_seconds": 0.015625,
+          "wall_seconds": 0.014999999999417923
+        }
+      }
+    },
+    {
+      "black_opening": 12,
+      "color": 2,
+      "depth": 4,
+      "baseline": {
+        "action": 6,
+        "stats": {
+          "nodes": 2844,
+          "cache_hits": 1,
+          "completed_depth": 4,
+          "value": 9.9,
+          "interrupted": false,
+          "engine": "cached-bitboards",
+          "pvs": true,
+          "cpu_seconds": 0.03125,
+          "wall_seconds": 0.01600000000325963
+        }
+      },
+      "candidate": {
+        "action": 6,
+        "stats": {
+          "nodes": 795,
+          "cache_hits": 1,
+          "completed_depth": 4,
+          "value": 9.9,
+          "interrupted": false,
+          "engine": "cached-bitboards",
+          "pvs": true,
+          "root_actions": 25,
+          "root_orbits": 6,
+          "root_symmetries": 8,
+          "symmetry_pruned_actions": 443,
+          "cpu_seconds": 0.0,
+          "wall_seconds": 0.015999999988707714
+        }
+      }
+    }
+  ],
+  "note": "Fixed depth exact value equality; CPU readings under concurrent load, node counts deterministic."
+}

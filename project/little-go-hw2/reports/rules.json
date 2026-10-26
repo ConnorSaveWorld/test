@@ -1,0 +1,11 @@
+{
+  "states": 1000,
+  "placements_compared": 25000,
+  "seed": 561,
+  "mismatches": 0,
+  "sources": [
+    "submission",
+    "independent matrix oracle",
+    "official GO"
+  ]
+}

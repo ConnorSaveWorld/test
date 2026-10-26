@@ -1,0 +1,27 @@
+--- submission8
++++ submission9
+@@ -556,19 +556,20 @@
+              'pvs': use_pvs}
+     pb, pw = _pack(previous)
+     black, white = _pack(board)
+-    # Original offline self-play policy for the observed early center squeeze.
+-    # Match both boards and the known turn, including all eight orientations.
++    # Local targeted hypothesis from the recorded Championship lines:
++    # preserve reply18 after the Black-7 approach, but answer the observed
++    # Black-11 approach with the counterwall at13. All other states search.
+     # Fixed-depth solver calls retain their requested minimax semantics.
+     if color == 2 and move_count == 3 and max_depth is None and not last_pass:
+         for mapping in _SYMMETRY_MAPS:
+             center, own, approach = (1 << mapping[p] for p in (12, 6, 7))
+             if (pb == center and pw == own and black == (center | approach)
+                     and white == own):
+-                opening_action = mapping[18]
++                opening_action = mapping[17] if mapping[7] == 11 else mapping[18]
+                 if any(point == opening_action for point, _, _ in
+                        _bit_moves(pb, pw, black, white, color)):
+                     stats.update(opening_policy=True,
+-                                 opening_origin='local-selfplay-second-white-v1',
++                                 opening_origin='local-counterwall-black11-v1',
+                                  cpu_seconds=time.process_time() - started_cpu,
+                                  wall_seconds=time.monotonic() - started_wall)
+                     return opening_action, stats

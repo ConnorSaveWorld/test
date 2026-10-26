@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-10-18T00:26:05.348018-07:00",
+  "source_sha256": "4edca990f6360dc2108f32391a5e3ad7ab203cab5768cd4755e73dacbb647a30",
+  "python": "3.7.5",
+  "source_suite": {
+    "source": "experiments/candidate_white_reply.py",
+    "source_sha256": "4edca990f6360dc2108f32391a5e3ad7ab203cab5768cd4755e73dacbb647a30",
+    "python": "3.7.5 (default, Oct 12 2026, 15:17:15) \n[GCC 13.3.0]",
+    "tests_run": 27,
+    "failures": 0,
+    "errors": 0,
+    "successful": true,
+    "scope": "Actual selected source: complete rule, protocol and search suites. Historical candidate-comparison tests remain separate."
+  },
+  "rules": {
+    "source": "experiments/candidate_white_reply.py",
+    "states": 1000,
+    "comparisons": 25000,
+    "mismatches": 0,
+    "seed": 5612026,
+    "note": "Internal optimized bitboard path versus independent matrix oracle and original official GO"
+  },
+  "project_suite": {
+    "tests_run": 94,
+    "failures": 0,
+    "errors": 0,
+    "observed_duration_seconds": 5.871,
+    "scope": "Whole project, including historical experiments; executed in this work session on actual CPython3.7.5."
+  },
+  "default_file_rechecks": {
+    "games": 5,
+    "wins": 5,
+    "max_white_move_cpu": 8.700254314999999,
+    "max_white_move_wall": 8.53652409499773,
+    "max_white_game_cpu": 41.32546029399999
+  },
+  "original_go_replay": {
+    "games": 257,
+    "actions": 6162,
+    "note": "Includes comparison baselines and development training fixtures; do not aggregate as independent wins."
+  }
+}

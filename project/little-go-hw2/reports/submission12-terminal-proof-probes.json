@@ -1,0 +1,258 @@
+{
+  "scope": "Exact full-horizon WLD proof on recorded positions, not opponent emulation.",
+  "results": [
+    {
+      "round": 1,
+      "count": 19,
+      "recorded": 3,
+      "proof": {
+        "complete": true,
+        "can_force_win": false,
+        "point": 23,
+        "nodes": 91,
+        "cache_size": 89,
+        "cpu": 0.0018430670000000038
+      }
+    },
+    {
+      "round": 1,
+      "count": 15,
+      "recorded": 24,
+      "proof": {
+        "complete": true,
+        "can_force_win": false,
+        "point": 1,
+        "nodes": 7153,
+        "cache_size": 5402,
+        "cpu": 0.11711072799999998
+      }
+    },
+    {
+      "round": 1,
+      "count": 13,
+      "recorded": 14,
+      "proof": {
+        "complete": true,
+        "can_force_win": false,
+        "point": 23,
+        "nodes": 56012,
+        "cache_size": 38610,
+        "cpu": 0.899012626
+      }
+    },
+    {
+      "round": 1,
+      "count": 11,
+      "recorded": 21,
+      "proof": {
+        "complete": true,
+        "can_force_win": false,
+        "point": 21,
+        "nodes": 160148,
+        "cache_size": 114148,
+        "cpu": 2.8233330399999996
+      }
+    },
+    {
+      "round": 1,
+      "count": 9,
+      "recorded": 22,
+      "proof": {
+        "complete": false,
+        "nodes": 493440,
+        "cache_size": 323929,
+        "cpu": 8.000510395
+      }
+    },
+    {
+      "round": 3,
+      "count": 19,
+      "recorded": 0,
+      "proof": {
+        "complete": true,
+        "can_force_win": false,
+        "point": 13,
+        "nodes": 68,
+        "cache_size": 67,
+        "cpu": 0.0015140300000009432
+      }
+    },
+    {
+      "round": 3,
+      "count": 15,
+      "recorded": 1,
+      "proof": {
+        "complete": true,
+        "can_force_win": false,
+        "point": 1,
+        "nodes": 3766,
+        "cache_size": 2686,
+        "cpu": 0.06846490999999943
+      }
+    },
+    {
+      "round": 3,
+      "count": 13,
+      "recorded": 19,
+      "proof": {
+        "complete": true,
+        "can_force_win": false,
+        "point": 5,
+        "nodes": 24121,
+        "cache_size": 16622,
+        "cpu": 0.37417121300000034
+      }
+    },
+    {
+      "round": 3,
+      "count": 11,
+      "recorded": 2,
+      "proof": {
+        "complete": true,
+        "can_force_win": false,
+        "point": 15,
+        "nodes": 275147,
+        "cache_size": 181112,
+        "cpu": 4.770487391000001
+      }
+    },
+    {
+      "round": 3,
+      "count": 9,
+      "recorded": 3,
+      "proof": {
+        "complete": false,
+        "nodes": 436864,
+        "cache_size": 291323,
+        "cpu": 8.000192035999998
+      }
+    },
+    {
+      "round": 5,
+      "count": 19,
+      "recorded": 15,
+      "proof": {
+        "complete": true,
+        "can_force_win": false,
+        "point": 19,
+        "nodes": 91,
+        "cache_size": 89,
+        "cpu": 0.0021071070000004966
+      }
+    },
+    {
+      "round": 5,
+      "count": 15,
+      "recorded": 24,
+      "proof": {
+        "complete": true,
+        "can_force_win": false,
+        "point": 5,
+        "nodes": 7352,
+        "cache_size": 5574,
+        "cpu": 0.1759039809999976
+      }
+    },
+    {
+      "round": 5,
+      "count": 13,
+      "recorded": 22,
+      "proof": {
+        "complete": true,
+        "can_force_win": false,
+        "point": 19,
+        "nodes": 41861,
+        "cache_size": 28155,
+        "cpu": 0.5914548119999985
+      }
+    },
+    {
+      "round": 5,
+      "count": 11,
+      "recorded": 9,
+      "proof": {
+        "complete": true,
+        "can_force_win": false,
+        "point": 9,
+        "nodes": 180126,
+        "cache_size": 126958,
+        "cpu": 2.958638993000001
+      }
+    },
+    {
+      "round": 5,
+      "count": 9,
+      "recorded": 14,
+      "proof": {
+        "complete": false,
+        "nodes": 481792,
+        "cache_size": 318021,
+        "cpu": 8.000120757000005
+      }
+    },
+    {
+      "round": 9,
+      "count": 19,
+      "recorded": 10,
+      "proof": {
+        "complete": true,
+        "can_force_win": false,
+        "point": 1,
+        "nodes": 103,
+        "cache_size": 97,
+        "cpu": 0.002350404999994282
+      }
+    },
+    {
+      "round": 9,
+      "count": 15,
+      "recorded": 2,
+      "proof": {
+        "complete": true,
+        "can_force_win": false,
+        "point": 1,
+        "nodes": 6126,
+        "cache_size": 4812,
+        "cpu": 0.09961039899999946
+      }
+    },
+    {
+      "round": 9,
+      "count": 13,
+      "recorded": 19,
+      "proof": {
+        "complete": true,
+        "can_force_win": false,
+        "point": 1,
+        "nodes": 33878,
+        "cache_size": 25353,
+        "cpu": 0.5423875430000038
+      }
+    },
+    {
+      "round": 9,
+      "count": 11,
+      "recorded": 5,
+      "proof": {
+        "complete": true,
+        "can_force_win": false,
+        "point": 19,
+        "nodes": 156659,
+        "cache_size": 105340,
+        "cpu": 2.0943434200000013
+      }
+    },
+    {
+      "round": 9,
+      "count": 9,
+      "recorded": 21,
+      "proof": {
+        "complete": false,
+        "nodes": 530176,
+        "cache_size": 346040,
+        "cpu": 8.000890839
+      }
+    }
+  ],
+  "complete": true
+}

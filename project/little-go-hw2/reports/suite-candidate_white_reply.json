@@ -1,0 +1,10 @@
+{
+  "source": "experiments/candidate_white_reply.py",
+  "source_sha256": "4edca990f6360dc2108f32391a5e3ad7ab203cab5768cd4755e73dacbb647a30",
+  "python": "3.7.5 (default, Oct 12 2026, 15:17:15) \n[GCC 13.3.0]",
+  "tests_run": 27,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "scope": "Actual selected source: complete rule, protocol and search suites. Historical candidate-comparison tests remain separate."
+}

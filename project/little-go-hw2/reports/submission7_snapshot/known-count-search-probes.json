@@ -1,0 +1,102 @@
+[
+  {
+    "count": 5,
+    "recorded": 8,
+    "chosen": 8,
+    "stats": {
+      "nodes": 899584,
+      "cache_hits": 28939,
+      "completed_depth": 8,
+      "value": 2.9,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "root_actions": 21,
+      "root_orbits": 21,
+      "root_symmetries": 1,
+      "symmetry_pruned_actions": 0,
+      "cpu_seconds": 10.0,
+      "wall_seconds": 10.187999999994645
+    }
+  },
+  {
+    "count": 9,
+    "recorded": 16,
+    "chosen": 16,
+    "stats": {
+      "nodes": 1000000,
+      "cache_hits": 69225,
+      "completed_depth": 10,
+      "value": -9.2,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "root_actions": 17,
+      "root_orbits": 17,
+      "root_symmetries": 1,
+      "symmetry_pruned_actions": 0,
+      "cpu_seconds": 9.234375,
+      "wall_seconds": 9.375
+    }
+  },
+  {
+    "count": 11,
+    "recorded": 1,
+    "chosen": 15,
+    "stats": {
+      "nodes": 1000000,
+      "cache_hits": 87032,
+      "completed_depth": 11,
+      "value": -12.15,
+      "interrupted": true,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "root_actions": 15,
+      "root_orbits": 15,
+      "root_symmetries": 1,
+      "symmetry_pruned_actions": 0,
+      "cpu_seconds": 7.140625,
+      "wall_seconds": 7.25
+    }
+  },
+  {
+    "count": 13,
+    "recorded": 9,
+    "chosen": 9,
+    "stats": {
+      "nodes": 213756,
+      "cache_hits": 37711,
+      "completed_depth": 11,
+      "value": -10001.5,
+      "interrupted": false,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "root_actions": 13,
+      "root_orbits": 13,
+      "root_symmetries": 1,
+      "symmetry_pruned_actions": 0,
+      "cpu_seconds": 1.765625,
+      "wall_seconds": 1.797000000020489
+    }
+  },
+  {
+    "count": 15,
+    "recorded": 15,
+    "chosen": 15,
+    "stats": {
+      "nodes": 53797,
+      "cache_hits": 7982,
+      "completed_depth": 9,
+      "value": -10001.5,
+      "interrupted": false,
+      "engine": "cached-bitboards",
+      "pvs": true,
+      "root_actions": 13,
+      "root_orbits": 13,
+      "root_symmetries": 1,
+      "symmetry_pruned_actions": 0,
+      "cpu_seconds": 0.375,
+      "wall_seconds": 0.39000000001396984
+    }
+  }
+]

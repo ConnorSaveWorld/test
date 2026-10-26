@@ -1,0 +1,21 @@
+{
+  "algorithm": "original linear TD(0), Black-oriented zero-sum value",
+  "games": 1000,
+  "seed_start": 700000,
+  "alpha": 0.03,
+  "gamma": 0.98,
+  "weights": [
+    1.3904797071337713,
+    -0.02791229237575737,
+    -1.2968739131176377,
+    -0.4108814561033263,
+    -0.3672797384151604
+  ],
+  "wall_seconds": 15.96899999998277,
+  "training_winners": {
+    "1": 308,
+    "2": 692
+  },
+  "deployment_approved": false,
+  "note": "Training outcomes are not test win rates; model is experimental."
+}

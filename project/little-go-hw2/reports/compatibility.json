@@ -1,0 +1,11 @@
+{
+  "runtime": "CPython 3.7.5 compiled from official Python.org source in WSL Ubuntu 24.04",
+  "full_test_suite": {
+    "tests": 39,
+    "passed": 39,
+    "failures": 0,
+    "errors": 0
+  },
+  "submission_sha256": "b5ec69b0c8cf0e016d5f7fb32486058be2c3b1534df9842badd46aa052b01d62",
+  "note": "Verified using actual CPython3.7.5, including fresh subprocess child-CPU accounting. Vocareum remains untested."
+}

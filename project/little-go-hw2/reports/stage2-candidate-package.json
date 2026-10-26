@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-10-19T21:36:38Z",
+  "files": [
+    "my_player3.py"
+  ],
+  "candidate_sha256": "122a9c0bc0e668687106cc1939aecb60cdf34851fb26b44669cf9fe891e1e24d",
+  "source_bytes": 26837,
+  "zip_bytes": 7032,
+  "zip_sha256": "f54c94f233ef9e2594575d10dd3c44cc1423e310d77868a4f6d953ba3d2e88fa",
+  "zip_entry_sha256": "122a9c0bc0e668687106cc1939aecb60cdf34851fb26b44669cf9fe891e1e24d",
+  "byte_match": true,
+  "stage1_delivery_unchanged": true,
+  "stage1_sha256": "dda83b2ac22036ea4bdc49418193aa38893fe4f1f6c64d06494e2a45156bff36",
+  "copies": [
+    "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2\\experiments\\candidate_white_counterwall_targeted.py",
+    "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2\\stage2_candidate\\my_player3.py",
+    "C:\\Users\\paul2\\Downloads\\my_player3.py",
+    "C:\\Users\\paul2\\Downloads\\little-go-stage2-candidate-extracted\\my_player3.py"
+  ],
+  "zip_paths": [
+    "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2\\little-go-stage2-candidate.zip",
+    "C:\\Users\\paul2\\Downloads\\little-go-stage2-candidate.zip"
+  ],
+  "backups": [
+    "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2\\reports\\delivery-backups\\20261019-targeted13-prepromotion"
+  ],
+  "official_status": "Not submitted to Vocareum. Latest official submission 8 remains score 6; user runs the next official test.",
+  "validation_report": "reports/STAGE2-WHITE-COUNTERWALL-TARGETED-20261019.md",
+  "local_screen": "reports/counterwall-opening-screen-targeted-d4.json",
+  "fresh_process_check": "reports/deployment-counterwall-targeted.json",
+  "full_suite": "97 tests passed under CPython 3.7.5"
+}

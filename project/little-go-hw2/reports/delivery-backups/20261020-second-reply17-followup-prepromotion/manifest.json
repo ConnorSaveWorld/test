@@ -1,0 +1,32 @@
+[
+  {
+    "source": "C:\\Users\\paul2\\Downloads\\my_player3.py",
+    "backup": "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2\\reports\\delivery-backups\\20261020-second-reply17-followup-prepromotion\\downloads-my_player3.py",
+    "sha256": "122a9c0bc0e668687106cc1939aecb60cdf34851fb26b44669cf9fe891e1e24d"
+  },
+  {
+    "source": "C:\\Users\\paul2\\Downloads\\little-go-stage2-candidate.zip",
+    "backup": "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2\\reports\\delivery-backups\\20261020-second-reply17-followup-prepromotion\\downloads-candidate.zip",
+    "sha256": "f54c94f233ef9e2594575d10dd3c44cc1423e310d77868a4f6d953ba3d2e88fa"
+  },
+  {
+    "source": "C:\\Users\\paul2\\Downloads\\little-go-stage2-candidate-extracted\\my_player3.py",
+    "backup": "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2\\reports\\delivery-backups\\20261020-second-reply17-followup-prepromotion\\downloads-extracted-my_player3.py",
+    "sha256": "122a9c0bc0e668687106cc1939aecb60cdf34851fb26b44669cf9fe891e1e24d"
+  },
+  {
+    "source": "C:\\Users\\paul2\\Downloads\\little-go-stage2-candidate\\my_player3.py",
+    "backup": "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2\\reports\\delivery-backups\\20261020-second-reply17-followup-prepromotion\\downloads-candidate-dir-my_player3.py",
+    "sha256": "122a9c0bc0e668687106cc1939aecb60cdf34851fb26b44669cf9fe891e1e24d"
+  },
+  {
+    "source": "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2\\stage2_candidate\\my_player3.py",
+    "backup": "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2\\reports\\delivery-backups\\20261020-second-reply17-followup-prepromotion\\project-stage2_candidate-my_player3.py",
+    "sha256": "122a9c0bc0e668687106cc1939aecb60cdf34851fb26b44669cf9fe891e1e24d"
+  },
+  {
+    "source": "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2\\little-go-stage2-candidate.zip",
+    "backup": "C:\\Users\\paul2\\.codex\\.chatgpt-projects\\g-p-68dc33922ddc819197d2694abbc00426\\little-go-hw2\\reports\\delivery-backups\\20261020-second-reply17-followup-prepromotion\\project-candidate.zip",
+    "sha256": "f54c94f233ef9e2594575d10dd3c44cc1423e310d77868a4f6d953ba3d2e88fa"
+  }
+]

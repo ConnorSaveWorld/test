@@ -1,0 +1,10 @@
+{
+  "source": "experiments/candidate_symmetry_tree.py",
+  "source_sha256": "c8cb449260e7b440000a94593adef5c21d6e5529a01f88251ae982fff6a58894",
+  "python": "3.7.5 (default, Oct 12 2026, 15:17:15) \n[GCC 13.3.0]",
+  "tests_run": 27,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "scope": "Actual selected source: complete rule, protocol and search suites. Historical candidate-comparison tests remain separate."
+}

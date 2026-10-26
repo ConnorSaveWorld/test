@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.runtime/
+submission/input.txt
+submission/output.txt
+submission/state.json
+submission/state.json.tmp

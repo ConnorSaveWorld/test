@@ -1,0 +1,10 @@
+{
+  "source": "experiments/candidate_white_second_reply17_black11followup13.py",
+  "source_sha256": "cefadb4f805e5d95e2f157a5b50619e476ed05dea47bef36e6ac1a0a56661698",
+  "python": "3.7.5 (default, Oct 12 2026, 15:17:15) \n[GCC 13.3.0]",
+  "tests_run": 27,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "scope": "Actual selected source: complete rule, protocol and search suites. Historical candidate-comparison tests remain separate."
+}
