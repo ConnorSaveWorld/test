@@ -1,0 +1,7 @@
+game 0 winner 1 cpu 3.3s 12e,6b,7e,17b,16e,11b,15e,18b,13e,14b,9,10b,1,21b,5,11,22,23,2,19,10,3,6,22
+game 1 winner 2 cpu 1.5s 12e,6b,11e,13b,8e,7b,3e,18b,17e,22b,5!,16b,0,10b,1,12x,2,11x,4,17x,9,14x,0,8x
+game 2 winner 1 cpu 3.3s 12e,6b,11e,13b,8e,7b,3e,18b,17e,2b,5,9b,1,2b,14,19,10,22,21,23,16,15,7,14
+game 3 winner 1 cpu 3.4s 12e,6b,7e,17b,16e,11b,15e,18b,13e,14b,9,10b,1,21b,5,11,6,19,10,3,23,8,11,4
+game 4 winner 1 cpu 3.2s 12e,6b,11e,13b,8e,7b,3e,18b,17e,22b,21,2b,5,9b,1,7,20,23,16,10,15,14,6,19
+game 5 winner 1 cpu 3.3s 12e,6b,11e,13b,8e,7b,3e,18b,17e,22b,21,2b,5,9b,1,7,15,2,6,23,7,14,-1,19
+white wins 1/6  worst move wall 1.82s cpu 1.78s  max game cpu 3.4s

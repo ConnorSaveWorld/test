@@ -1,6 +1,6 @@
 # 新对话先读这里
 
-**2026-10-26 更新：** 接手后的新进展、白方陷阱开局库候选（`project/little-go-hw2/stage2_trap/my_player3.py`，SHA256 `9ff151a3…`）及其验证见 `03_接手进展报告_20261026.md`。
+**2026-10-26 更新：** 接手后的进展见 `03_接手进展报告_20261026.md`。当前候选 `project/little-go-hw2/stage2_trap/my_player3.py`（SHA256 `39e5df82…`，第 2 版陷阱库，第 8 节）。
 
 这是 Little-Go HW2 的完整交接包，整理于 2026-10-25。不是 Vocareum 提交包，不能把整个 ZIP 上传为作业。
 

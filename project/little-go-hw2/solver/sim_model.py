@@ -37,6 +37,26 @@ INV = [[i for i in range(8) if all(SYM[i][SYM[t][p]] == p for p in range(25))][0
 
 def black_move(s, emp, rng, use_emp=True):
     k, t = canon(s)
+    if MODEL == 'v3':
+        import trapsearch3 as T3
+        if s.count < 6 and k in T3.EMP:
+            d = T3.EMP[k]; r = rng.random() * sum(d.values())
+            for cm, c in sorted(d.items()):
+                r -= c
+                if r < 0:
+                    return tmove(cm, INV[t]), 'emp'
+        if k in MCACHE:
+            mv = {tmove(m, INV[t]): v for m, v in MCACHE[k].items()}
+        else:
+            mv = moves(s)
+            MCACHE[k] = {tmove(m, t): v for m, v in mv.items()}
+        dist, known = T3.black_dist(s, mv)
+        r = rng.random()
+        for b in sorted(dist):
+            r -= dist[b]
+            if r < 0:
+                return b, ('error' if mv[b] == 0 else ('emp' if known else 'win'))
+        return max(dist, key=dist.get), 'win'
     if use_emp and k in emp:
         d = emp[k]
         tot = sum(d.values())
