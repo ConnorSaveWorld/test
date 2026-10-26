@@ -68,7 +68,7 @@ ROOT = HERE.parent
 def official_games():
     out = []
     base = ROOT / 'reports/official-all-submissions-20261025/submit'
-    for n in range(2, 14):
+    for n in range(2, 15):
         f = base / ('cnt%d' % n) / 'parsed-games.json'
         if not f.exists(): continue
         for r in json.loads(f.read_text())['results']:
