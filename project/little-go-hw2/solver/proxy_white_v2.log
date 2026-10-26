@@ -15,3 +15,11 @@ trap survival 24000 [12, 6, 11] winner 2 limit margin 0.5
 trap survival 48000 [12] winner 2 limit margin 0.5
 trap survival 48000 [12, 6, 11] winner 2 limit margin 0.5
 trap survival 96000 [12] winner 2 limit margin 0.5
+trap survival 96000 [12, 6, 11] winner 2 limit margin 0.5
+trap space 24000 [12] winner 2 limit margin 0.5
+trap space 24000 [12, 6, 11] winner 2 limit margin 0.5
+trap space 48000 [12] winner 2 limit margin 1.5
+trap space 48000 [12, 6, 11] winner 1 limit margin -3.5
+trap space 96000 [12] winner 2 limit margin 0.5
+trap space 96000 [12, 6, 11] winner 2 limit margin 0.5
+trap white wins 20 / 24
