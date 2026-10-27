@@ -1,0 +1,15 @@
+N=100000 c=0.30 policy=1 select=0  ll=-1.664  top=0.502  44s
+N=100000 c=0.30 policy=1 select=1  ll=-1.646  top=0.552  36s
+N=100000 c=0.50 policy=1 select=0  ll=-1.695  top=0.539  36s
+N=100000 c=0.50 policy=1 select=1  ll=-1.705  top=0.539  36s
+N=100000 c=0.70 policy=1 select=0  ll=-1.668  top=0.538  36s
+N=100000 c=0.70 policy=1 select=1  ll=-1.668  top=0.542  36s
+N=100000 c=1.00 policy=1 select=0  ll=-1.685  top=0.534  36s
+N=100000 c=1.00 policy=1 select=1  ll=-1.697  top=0.534  36s
+N=300000 c=0.30 policy=1 select=0  ll=-1.677  top=0.481  139s
+N=300000 c=0.30 policy=1 select=1  ll=-1.663  top=0.502  146s
+N=300000 c=0.50 policy=1 select=0  ll=-1.874  top=0.488  143s
+N=300000 c=0.50 policy=1 select=1  ll=-1.813  top=0.486  143s
+N=300000 c=0.70 policy=1 select=0  ll=-1.865  top=0.486  143s
+N=300000 c=0.70 policy=1 select=1  ll=-1.865  top=0.494  142s
+N=300000 c=1.00 policy=1 select=0  ll=-1.837  top=0.477  153s

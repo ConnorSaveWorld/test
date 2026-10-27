@@ -1,0 +1,16 @@
+{"kind": "mcts", "c": 0.7, "connect": 0, "cutoff": 0, "n": 3000, "noise": 1, "policy": 2, "select": 0} ll=-1.698 top=0.566 3s
+{"kind": "mcts", "c": 0.7, "connect": 0, "cutoff": 0, "n": 3000, "noise": 4, "policy": 2, "select": 0} ll=-1.603 top=0.548 3s
+{"kind": "mcts", "c": 0.7, "connect": 0, "cutoff": 0, "n": 10000, "noise": 1, "policy": 2, "select": 0} ll=-1.757 top=0.542 10s
+{"kind": "mcts", "c": 0.7, "connect": 0, "cutoff": 0, "n": 10000, "noise": 4, "policy": 2, "select": 0} ll=-1.690 top=0.528 10s
+{"kind": "mcts", "c": 0.7, "connect": 0, "cutoff": 8, "n": 3000, "noise": 1, "policy": 2, "select": 0} ll=-2.071 top=0.377 3s
+{"kind": "mcts", "c": 0.7, "connect": 0, "cutoff": 8, "n": 3000, "noise": 4, "policy": 2, "select": 0} ll=-2.025 top=0.352 2s
+{"kind": "mcts", "c": 0.7, "connect": 0, "cutoff": 8, "n": 10000, "noise": 1, "policy": 2, "select": 0} ll=-2.203 top=0.348 8s
+{"kind": "mcts", "c": 0.7, "connect": 0, "cutoff": 8, "n": 10000, "noise": 4, "policy": 2, "select": 0} ll=-2.150 top=0.404 8s
+{"kind": "mcts", "c": 0.7, "connect": 1, "cutoff": 0, "n": 3000, "noise": 1, "policy": 2, "select": 0} ll=-1.703 top=0.526 3s
+{"kind": "mcts", "c": 0.7, "connect": 1, "cutoff": 0, "n": 3000, "noise": 4, "policy": 2, "select": 0} ll=-1.621 top=0.585 3s
+{"kind": "mcts", "c": 0.7, "connect": 1, "cutoff": 0, "n": 10000, "noise": 1, "policy": 2, "select": 0} ll=-1.766 top=0.486 9s
+{"kind": "mcts", "c": 0.7, "connect": 1, "cutoff": 0, "n": 10000, "noise": 4, "policy": 2, "select": 0} ll=-1.677 top=0.560 9s
+{"kind": "mcts", "c": 0.7, "connect": 1, "cutoff": 8, "n": 3000, "noise": 1, "policy": 2, "select": 0} ll=-2.097 top=0.411 2s
+{"kind": "mcts", "c": 0.7, "connect": 1, "cutoff": 8, "n": 3000, "noise": 4, "policy": 2, "select": 0} ll=-2.135 top=0.378 2s
+{"kind": "mcts", "c": 0.7, "connect": 1, "cutoff": 8, "n": 10000, "noise": 1, "policy": 2, "select": 0} ll=-2.179 top=0.348 7s
+{"kind": "mcts", "c": 0.7, "connect": 1, "cutoff": 8, "n": 10000, "noise": 4, "policy": 2, "select": 0} ll=-2.101 top=0.352 7s

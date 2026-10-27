@@ -1,0 +1,2 @@
+{"black": 7, "white_wins": false, "white_best": -2, "seconds": 124.0, "nodes": 434530224}
+RESULT {"white_first": 1, "tried": [{"black": 7, "white_wins": false, "white_best": -2, "seconds": 124.0, "nodes": 434530224}], "white_first_lost": true}
